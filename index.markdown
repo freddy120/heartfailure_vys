@@ -15,6 +15,7 @@ Elaborado por: Freddy Mendoza Ticona, ...
 ### Recursos:
 * Jupyter notebook del modelado de datos [notebook](https://github.com/freddy120/heartfailure_vys/blob/main/Proyecto_Final_VyS.ipynb) [![Foo](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/freddy120/heartfailure_vys/blob/main/Proyecto_Final_VyS.ipynb)
 * Base de datos [dataset](https://www.kaggle.com/fedesoriano/heart-failure-prediction)
+* Base de datos procesado [dataset procesado](https://freddy120.github.io/heartfailure_vys/files/heart_procesado.csv)
 * Dashboard en google data studio [dashboard](https://datastudio.google.com/reporting/c5b2c862-0ce9-4b05-9fe3-7027ceb9c09b)
 
 
