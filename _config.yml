@@ -28,9 +28,11 @@ twitter_username: frmendozat
 github_username:  freddy120
 
 # Build settings
-theme: minima
+#theme: minima
+remote_theme: rundocs/jekyll-rtd-theme
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
