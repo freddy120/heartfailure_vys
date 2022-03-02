@@ -62,16 +62,25 @@ Luego de aplicar la limpieza, minado y filtrado de los datos nos quedamos con la
 
 * Se descarga la basa de datos en formato csv del enlace.
 * Se usa jupyter notebook para hacer el modelado, se puede usar colab para abrirlo.
-* Se carga el archivo 'Ask A Manager Salary Survey 2021 (Responses) - Form Responses 1.csv’ en la ubicación del notebook para poder cargarlo con pandas.
+* Se carga el archivo 'heart.csv’ en la ubicación del notebook para poder cargarlo con pandas.
 
 ```python
-df = pd.read_csv('Ask A Manager Salary Survey 2021 (Responses) - Form Responses 1.csv', thousands=',')
-df.head()
+heart_df = pd.read_csv("heart.csv")
+```
+
+* Se realiza un análisis de las variables numéricas y categóricas y no se encuentran problemas que sea necesario de estandarizar.
+
+![img.png](img.png)
+
+* Se eliminan posibles nulos y datos duplicados.
+
+```python
+heart_df = heart_df.dropna()
+heart_df = heart_df.drop_duplicates()
 ```
 
 
-
-* Se realiza la traduccion del nombre de las variables.
+* Se realiza la traducción del nombre de las variables.
 
 ```python
 heart_df = heart_df.rename(columns = {'Age': 'Edad', 'Sex': 'Sexo', 'ChestPainType': 'Dolor de pecho', 
@@ -86,7 +95,3 @@ heart_df = heart_df.rename(columns = {'Age': 'Edad', 'Sex': 'Sexo', 'ChestPainTy
 ```python
 heart_df.to_csv('heart_procesado.csv',  index=False)
 ```
-
-
-### Dashboard
-[google data studio](https://datastudio.google.com/reporting/c5b2c862-0ce9-4b05-9fe3-7027ceb9c09b)
