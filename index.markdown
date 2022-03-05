@@ -9,7 +9,7 @@ layout: default
 ## Proyecto Final
 Este proyecto final del curso de  Visualización y storytelling de la Maestría en Inteligencia Analítica de Datos MIAD
 
-Elaborado por: Freddy Mendoza Ticona, ...
+Elaborado por: Freddy Rodrigo Mendoza Ticona. William Alexander Romero Bolívar. Maria PaulaSalamanca Delgado.JorgeOswaldo Suárez Rodríguez.
 
 
 ### Recursos:
