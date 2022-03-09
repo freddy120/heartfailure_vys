@@ -9,14 +9,25 @@ layout: default
 ## Proyecto Final
 Este proyecto final del curso de  Visualización y storytelling de la Maestría en Inteligencia Analítica de Datos MIAD
 
-Elaborado por: Freddy Rodrigo Mendoza Ticona. William Alexander Romero Bolívar. Maria PaulaSalamanca Delgado.JorgeOswaldo Suárez Rodríguez.
+Elaborado por: 
+* Freddy Rodrigo Mendoza Ticona. 
+* William Alexander Romero Bolívar. 
+* Maria Paula Salamanca Delgado.
+* Jorge Oswaldo Suárez Rodríguez.
 
 
-### Recursos:
+### Notebook de procesamiento:
 * Jupyter notebook del modelado de datos [notebook](https://github.com/freddy120/heartfailure_vys/blob/main/Proyecto_Final_VyS.ipynb) [![Foo](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/freddy120/heartfailure_vys/blob/main/Proyecto_Final_VyS.ipynb)
-* Base de datos [dataset](https://www.kaggle.com/fedesoriano/heart-failure-prediction)
-* Base de datos procesado [dataset procesado](https://freddy120.github.io/heartfailure_vys/files/heart_procesado.csv)
-* Dashboard en google data studio [dashboard](https://datastudio.google.com/reporting/c5b2c862-0ce9-4b05-9fe3-7027ceb9c09b)
+
+### Fuentes de datos:
+El tema de nuestro proyecto es analizar e identificar los factores más importantes que pueden producir un problema cardiaco, para ello contamos con 3 fuentes de datos.
+* Causas de muerte en colombia en 2019. 
+  * Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. https://www.who.int/data/gho/data/themes/mortality-and-global-health-estimates/ghe-leading-causes-of-death
+* Datos de predicción de insuficiencia cardíaca: Aquí tenemos 918 observaciones de pacientes con 11 variables de interés. 
+  * fedesoriano. (September 2021). Heart Failure Prediction Dataset. Retrieved [Date Retrieved] from https://www.kaggle.com/fedesoriano/heart-failure-prediction. 
+* Datos de enfermedad cardiovascular: Aquí tenemos 70000 observaciones de pacientes con 11 variables de interés relativamente diferentes al dataset anterior y que nos permiten aumentar el análisis. 
+  * https://www.kaggle.com/fedesoriano/heart-failure-prediction
+
 
 
 ### Variables de la fuente de datos original:
@@ -96,3 +107,7 @@ heart_df = heart_df.rename(columns = {'Age': 'Edad', 'Sex': 'Sexo', 'ChestPainTy
 ```python
 heart_df.to_csv('heart_procesado.csv',  index=False)
 ```
+
+
+### Datos procesados
+* Base de datos procesado [dataset procesado](https://freddy120.github.io/heartfailure_vys/files/heart_procesado.csv)
