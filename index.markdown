@@ -21,7 +21,7 @@ Elaborado por:
 
 ### Fuentes de datos:
 El tema de nuestro proyecto es analizar e identificar los factores más importantes que pueden producir un problema cardiaco, para ello contamos con 3 fuentes de datos.
-* Causas de muerte en colombia en 2019. 
+* Causas de muerte de colombia en 2019. 
   * Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. https://www.who.int/data/gho/data/themes/mortality-and-global-health-estimates/ghe-leading-causes-of-death
 * Datos de predicción de insuficiencia cardíaca: Aquí tenemos 918 observaciones de pacientes con 11 variables de interés. 
   * fedesoriano. (September 2021). Heart Failure Prediction Dataset. Retrieved [Date Retrieved] from https://www.kaggle.com/fedesoriano/heart-failure-prediction. 
