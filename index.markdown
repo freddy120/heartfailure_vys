@@ -32,7 +32,7 @@ El tema de nuestro proyecto es analizar e identificar los factores más importan
 
 ### Variables de la fuente de datos original:
 
-Las variables mantienen su nombre original.
+Datos de predicción de insuficiencia cardíaca:
 
 | Nombre         | Descripción                                                              | Tipo      |
 | -------------- |--------------------------------------------------------------------------|-----------|
@@ -50,17 +50,53 @@ Las variables mantienen su nombre original.
 | HeartDisease      | predictor de enfermedad del corazón                                      | texto |
 
 
+Datos de enfermedad cardiovascular: 
+
+| Nombre         | Descripción                                                              | Tipo      |
+| -------------- |--------------------------------------------------------------------------|-----------|
+| age            | Edad del paciente                                                        | numérico  |
+| gender            | Sexo del paciente                                                        | texto     |
+| height  | Altura del paciente                                                   | numérico     |
+| weight      |Peso del paciente                                             | numérico  |
+| ap_hi    | Presión sanguínea sistólica                                                         | numérico  |
+| ap_lo      |Presión arterial diastólica                                            | numérico |
+| cholesterol     | colesterol                              | texto |
+| gluc          | glucosa                                  | texto  |
+| smoke | fumar                                 | texto |
+| alco        | consumo de alcohol | texto  |
+| active      | actividad fisica  | texto |
+| cardio      | si presenta enfermedad cardiovascular                                  | texto |
+
+
+Causas de muerte de colombia en 2019:
+
+| Nombre         | Descripción                                                              | Tipo      |
+| -------------- |--------------------------------------------------------------------------|-----------|
+| Cause            | causa de muerte                                                   | texto  |
+| ISO3            | pais                                                       | texto     |
+| Year  | año                                                  | numérico     |
+| Sex      | sexo                                         | texto  |
+| Age Group    | grupo de edad                                                       | texto  |
+| Population      | poblacion                                             | numérico |
+| Deaths     | cantidad de muertes                            | numérico |
+| Death rate per 100 000 population          | tasa de muertes por 100 000 habitantes                                     | numérico  |
+| DALY | DALY                                | numérico |
+| DALY rate per 100 000 population        | tasa de DALY por 100 000 habitantes     | numérico  |
+
+
 ### Variables luego del modelado:
 
-Luego de aplicar la limpieza, minado y filtrado de los datos nos quedamos con las siguientes variables, se traducen el nombre de las variables al español.
+Luego de aplicar la limpieza, minado y filtrado de los datos nos quedamos con las siguientes variables.
+
+Datos de predicción de insuficiencia cardíaca:
 
 | Nombre         | Descripción                                                              | Tipo      |
 | -------------- |--------------------------------------------------------------------------|-----------|
 | Edad            | Edad del paciente                                                        | numérico  |
 | Sexo            | Sexo del paciente                                                        | texto     |
 | Dolor de pecho  | Tipo de dolor de pecho                                                   | texto     |
-| Presión arterial en reposo      | Presión arterial en reposo                                               | numérico  |
-| Colesterol total    | Colesterol total                                                         | numérico  |
+| Presión arterial en reposo(mm Hg)      | Presión arterial en reposo                                               | numérico  |
+| Colesterol total(mm/dl)    | Colesterol total                                                         | numérico  |
 | Glucosa sanguínea en ayunas      | Glucosa sanguínea en ayunas                                              | texto |
 | EEG en reposo     | Resultados del electrocardiograma en reposo                              | texto |
 | Max Frecuencia cardíaca          | Frecuencia cardíaca máxima alcanzada                                     | numérico  |
@@ -70,6 +106,35 @@ Luego de aplicar la limpieza, minado y filtrado de los datos nos quedamos con la
 | Enfermedad cardíaca      | predictor de enfermedad del corazón                                      | texto |
 
 
+Datos de enfermedad cardiovascular: 
+
+| Nombre         | Descripción                                                              | Tipo      |
+| -------------- |--------------------------------------------------------------------------|-----------|
+| Edad            | Edad del paciente                                                        | numérico  |
+| Sexo            | Sexo del paciente                                                        | texto     |
+| altura(cm)  | Altura del paciente                                                   | numérico     |
+| Peso(kg)      |Peso del paciente                                             | numérico  |
+| Presión sanguínea sistólica    | Presión sanguínea sistólica                                                         | numérico  |
+| Presión arterial diastólica      |Presión arterial diastólica                                            | numérico |
+| Nivel de Colesterol     | colesterol                              | texto |
+| Nivel de Glucosa          | glucosa                                  | texto  |
+| De fumar | fumar                                 | texto |
+| Consumo de alcohol        | consumo de alcohol | texto  |
+| Actividad física      | actividad fisica  | texto |
+| Enfermedad cardíaca      | si presenta enfermedad cardiovascular                                  | texto |
+
+
+Causas de muerte de colombia en 2019:
+
+| Nombre         | Descripción                                                              | Tipo      |
+| -------------- |--------------------------------------------------------------------------|-----------|
+| Causa            | causa de muerte                                                   | texto  |
+| Población      | poblacion                                             | numérico |
+| Muertes     | cantidad de muertes                            | numérico |
+| Tasa de mortalidad por 100 000 habitantes          | tasa de muertes por 100 000 habitantes                                     | numérico  |
+
+
+
 ### Modelado
 
 * Se descargan las bases de datos en formato csv o excel, a la fecha se utilizaron los siguientes:
@@ -77,32 +142,89 @@ Luego de aplicar la limpieza, minado y filtrado de los datos nos quedamos con la
   * Datos de enfermedad cardiovascular: [https://freddy120.github.io/heartfailure_vys/files/cardio_train.csv](https://freddy120.github.io/heartfailure_vys/files/cardio_train.csv)
   * Causas de muerte de colombia en 2019: [https://freddy120.github.io/heartfailure_vys/files/causesofdeath_colombia_2019.xlsx](https://freddy120.github.io/heartfailure_vys/files/causesofdeath_colombia_2019.xlsx)
 * Se usa jupyter notebook para hacer el modelado, se puede usar colab para abrirlo.
-* Se carga el archivo 'heart.csv’ en la ubicación del notebook para poder cargarlo con pandas.
+* Se carga los archivos csv y/o excel en la ubicación del notebook para poder cargarlo con pandas.
 
 ```python
 heart_df = pd.read_csv("heart.csv")
+cardio_df = pd.read_csv("cardio_train.csv", delimiter=';')
+causas_muerte_df = pd.read_excel("causesofdeath_colombia_2019.xlsx")
 ```
-
-* Se realiza un análisis de las variables numéricas y categóricas y no se encuentran problemas que sea necesario de estandarizar.
-
-![img.png](img.png)
-
-* Se eliminan posibles nulos y datos duplicados.
+* se realiza la limpieza de datos.
+  * Eliminación de registros duplicados.
+  * Eliminación de registros con datos nulos.
+  * Eliminar columnas de ID.
+  * Eliminación de columnas que no aportan al problema.
+  * Análisis exploratorio inicial.
+  * Buscamos con las distribuciones alguna variable que más contribuya a la predicción de falla cardíaca o enfermedad cardiovascular.
+  * En el dataset de causas de muerte observamos que existen muchas causas de muerte, nos interesa solo el top 15.
 
 ```python
-heart_df = heart_df.dropna()
-heart_df = heart_df.drop_duplicates()
+heart_df = heart_df.dropna().drop_duplicates()
+cardio_df = cardio_df.dropna().drop_duplicates()
+cardio_df = cardio_df.drop(columns=['id'])
+causas_muerte_df = causas_muerte_df.dropna().drop_duplicates()
+causas_muerte_df = causas_muerte_df.drop(columns=['Code', 'ISO3', 'Sex', 'Age Group'])
 ```
 
-
-* Se realiza la traducción del nombre de las variables.
+* Transformacion de variables, cambio de unidades.
+* Se realiza la traducción de nombres de variables del inglés al español.
+* Estandarizar etiquetas de variables categóricas y traducción al español.
 
 ```python
+heart_df['Sex'] = heart_df['Sex'].apply(lambda x: "Masculino" if x=='M' else 'Femenino')
+heart_df['FastingBS'] = heart_df['FastingBS'].apply(lambda x: "> 120 mg/dl" if x ==1 else "<= 120 mg/dl")
+heart_df['ExerciseAngina'] = heart_df['ExerciseAngina'].apply(lambda x: "Si" if x=='Y' else 'No')
+heart_df['HeartDisease'] = heart_df['HeartDisease'].apply(lambda x: "Si" if x==1  else 'No')
+heart_df["ChestPainType"].replace({"ATA": "Angina atípica", "NAP": "Dolor no anginoso", "ASY": "Asintomático", "TA": "Angina típica"}, inplace=True)
+
 heart_df = heart_df.rename(columns = {'Age': 'Edad', 'Sex': 'Sexo', 'ChestPainType': 'Dolor de pecho', 
-                                      'RestingBP': 'Presión arterial en reposo', 'Cholesterol': 'Colesterol total', 
+                                      'RestingBP': 'Presión arterial en reposo(mm Hg)', 'Cholesterol': 'Colesterol total(mm/dl)', 
                                       'FastingBS': 'Glucosa sanguínea en ayunas', 'RestingECG': 'EEG en reposo', 
                                       'MaxHR': 'Max Frecuencia cardíaca', 'ExerciseAngina': 'Angina de ejercicio', 
                                       'Oldpeak': 'Depresión del ST inducida', 'ST_Slope': 'Pendiente ST', 'HeartDisease': 'Enfermedad cardíaca'}, inplace = False)
+```
+
+```python
+cardio_df['age'] = cardio_df['age'].apply(lambda x: round(x*0.0027))
+cardio_df['gender'] = cardio_df['gender'].apply(lambda x: "Masculino" if x==2 else 'Femenino')
+cardio_df['cardio'] = cardio_df['cardio'].apply(lambda x: "Si" if x==1  else 'No')
+cardio_df["cholesterol"].replace({1: "Normal", 2: "Encima de lo normal", 3: "Muy por encima de lo normal"}, inplace=True)
+cardio_df["gluc"].replace({1: "Normal", 2: "Encima de lo normal", 3: "Muy por encima de lo normal"}, inplace=True)
+cardio_df["smoke"].replace({0: "No fumador", 1: "Fumador"}, inplace=True)
+cardio_df["alco"].replace({0: "No Consumo de alcohol", 1: "Consumo de alcohol"}, inplace=True)
+cardio_df["active"].replace({0: "No actividad física", 1: "Actividad física"}, inplace=True)
+
+cardio_df = cardio_df.rename(columns = {'age': 'Edad', 'gender': 'Sexo', 'height': 'altura(cm)', 
+                                      'weight': 'Peso(kg)', 'ap_hi': 'Presión sanguínea sistólica', 
+                                      'ap_lo': 'Presión arterial diastólica', 'cholesterol': 'Nivel de Colesterol', 
+                                      'gluc': 'Nivel de Glucosa', 'smoke': 'De fumar', 
+                                      'alco': 'Consumo de alcohol', 'active': 'Actividad física', 'cardio': 'Enfermedad cardíaca'}, inplace = False)
+
+
+```
+
+```python
+causas_muerte_df["Cause"].replace({"Ischaemic heart disease": "Enfermedad isquémica del corazón", 
+                                           "Interpersonal violence": "Violencia interpersonal", 
+                                           "Chronic obstructive pulmonary disease": "Afección pulmonar obstructiva crónica", 
+                                           "Stroke": "Derrame cerebral",
+                                           "Road injury": "Accidente automovilístico",
+                                           "Lower respiratory infections": "Neumonía",
+                                           "Stomach cancer": "Cáncer de estómago",
+                                           "Kidney diseases": "Enfermedad renal",
+                                           "Prostate cancer": "Cancer de prostata",
+                                           "Hypertensive heart disease": "Hipertensión arterial",
+                                           "Trachea, bronchus, lung cancers": "Tráquea, bronquios, cánceres de pulmón",
+                                           "Neonatal conditions":"Condiciones neonatales",
+                                           "HIV/AIDS": "VIH/SIDA",
+                                           "Diabetes mellitus": "Diabetes mellitus",
+                                           "Colon and rectum cancers": "Cánceres de colon y recto"}, inplace=True)
+
+
+causas_muerte_df = causas_muerte_df.rename(columns = {'Cause': 'Causa', 'Population': 'Población',
+                                                      'Death rate per 100 000 population': 'Tasa de mortalidad por 100 000 habitantes',
+                                                      'Deaths': "Muertes"}, inplace = False)
+causas_muerte_df = causas_muerte_df.drop(columns=['Year', 'DALY', 'DALY rate per 100 000 population'])
 ```
 
 * Por último, se crea un nuevo csv después de ejecutar todo el jupyter notebook, el cual utilizaremos para crear el dashboard.
