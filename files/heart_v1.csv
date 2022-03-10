@@ -1,0 +1,919 @@
+,Edad,Sexo,Dolor de pecho,Presión arterial en reposo(mm Hg),Colesterol total(mm/dl),Glucosa sanguínea en ayunas,EEG en reposo,Max Frecuencia cardíaca,Angina de ejercicio,Depresión del ST inducida,Pendiente ST,Enfermedad cardíaca
+0,40,Masculino,Angina atípica,140,289,<= 120 mg/dl,Normal,172,No,0.0,Up,No
+1,49,Femenino,Dolor no anginoso,160,180,<= 120 mg/dl,Normal,156,No,1.0,Flat,Si
+2,37,Masculino,Angina atípica,130,283,<= 120 mg/dl,ST,98,No,0.0,Up,No
+3,48,Femenino,Asintomático,138,214,<= 120 mg/dl,Normal,108,Si,1.5,Flat,Si
+4,54,Masculino,Dolor no anginoso,150,195,<= 120 mg/dl,Normal,122,No,0.0,Up,No
+5,39,Masculino,Dolor no anginoso,120,339,<= 120 mg/dl,Normal,170,No,0.0,Up,No
+6,45,Femenino,Angina atípica,130,237,<= 120 mg/dl,Normal,170,No,0.0,Up,No
+7,54,Masculino,Angina atípica,110,208,<= 120 mg/dl,Normal,142,No,0.0,Up,No
+8,37,Masculino,Asintomático,140,207,<= 120 mg/dl,Normal,130,Si,1.5,Flat,Si
+9,48,Femenino,Angina atípica,120,284,<= 120 mg/dl,Normal,120,No,0.0,Up,No
+10,37,Femenino,Dolor no anginoso,130,211,<= 120 mg/dl,Normal,142,No,0.0,Up,No
+11,58,Masculino,Angina atípica,136,164,<= 120 mg/dl,ST,99,Si,2.0,Flat,Si
+12,39,Masculino,Angina atípica,120,204,<= 120 mg/dl,Normal,145,No,0.0,Up,No
+13,49,Masculino,Asintomático,140,234,<= 120 mg/dl,Normal,140,Si,1.0,Flat,Si
+14,42,Femenino,Dolor no anginoso,115,211,<= 120 mg/dl,ST,137,No,0.0,Up,No
+15,54,Femenino,Angina atípica,120,273,<= 120 mg/dl,Normal,150,No,1.5,Flat,No
+16,38,Masculino,Asintomático,110,196,<= 120 mg/dl,Normal,166,No,0.0,Flat,Si
+17,43,Femenino,Angina atípica,120,201,<= 120 mg/dl,Normal,165,No,0.0,Up,No
+18,60,Masculino,Asintomático,100,248,<= 120 mg/dl,Normal,125,No,1.0,Flat,Si
+19,36,Masculino,Angina atípica,120,267,<= 120 mg/dl,Normal,160,No,3.0,Flat,Si
+20,43,Femenino,Angina típica,100,223,<= 120 mg/dl,Normal,142,No,0.0,Up,No
+21,44,Masculino,Angina atípica,120,184,<= 120 mg/dl,Normal,142,No,1.0,Flat,No
+22,49,Femenino,Angina atípica,124,201,<= 120 mg/dl,Normal,164,No,0.0,Up,No
+23,44,Masculino,Angina atípica,150,288,<= 120 mg/dl,Normal,150,Si,3.0,Flat,Si
+24,40,Masculino,Dolor no anginoso,130,215,<= 120 mg/dl,Normal,138,No,0.0,Up,No
+25,36,Masculino,Dolor no anginoso,130,209,<= 120 mg/dl,Normal,178,No,0.0,Up,No
+26,53,Masculino,Asintomático,124,260,<= 120 mg/dl,ST,112,Si,3.0,Flat,No
+27,52,Masculino,Angina atípica,120,284,<= 120 mg/dl,Normal,118,No,0.0,Up,No
+28,53,Femenino,Angina atípica,113,468,<= 120 mg/dl,Normal,127,No,0.0,Up,No
+29,51,Masculino,Angina atípica,125,188,<= 120 mg/dl,Normal,145,No,0.0,Up,No
+30,53,Masculino,Dolor no anginoso,145,518,<= 120 mg/dl,Normal,130,No,0.0,Flat,Si
+31,56,Masculino,Dolor no anginoso,130,167,<= 120 mg/dl,Normal,114,No,0.0,Up,No
+32,54,Masculino,Asintomático,125,224,<= 120 mg/dl,Normal,122,No,2.0,Flat,Si
+33,41,Masculino,Asintomático,130,172,<= 120 mg/dl,ST,130,No,2.0,Flat,Si
+34,43,Femenino,Angina atípica,150,186,<= 120 mg/dl,Normal,154,No,0.0,Up,No
+35,32,Masculino,Angina atípica,125,254,<= 120 mg/dl,Normal,155,No,0.0,Up,No
+36,65,Masculino,Asintomático,140,306,> 120 mg/dl,Normal,87,Si,1.5,Flat,Si
+37,41,Femenino,Angina atípica,110,250,<= 120 mg/dl,ST,142,No,0.0,Up,No
+38,48,Femenino,Angina atípica,120,177,> 120 mg/dl,ST,148,No,0.0,Up,No
+39,48,Femenino,Asintomático,150,227,<= 120 mg/dl,Normal,130,Si,1.0,Flat,No
+40,54,Femenino,Angina atípica,150,230,<= 120 mg/dl,Normal,130,No,0.0,Up,No
+41,54,Femenino,Dolor no anginoso,130,294,<= 120 mg/dl,ST,100,Si,0.0,Flat,Si
+42,35,Masculino,Angina atípica,150,264,<= 120 mg/dl,Normal,168,No,0.0,Up,No
+43,52,Masculino,Dolor no anginoso,140,259,<= 120 mg/dl,ST,170,No,0.0,Up,No
+44,43,Masculino,Asintomático,120,175,<= 120 mg/dl,Normal,120,Si,1.0,Flat,Si
+45,59,Masculino,Dolor no anginoso,130,318,<= 120 mg/dl,Normal,120,Si,1.0,Flat,No
+46,37,Masculino,Asintomático,120,223,<= 120 mg/dl,Normal,168,No,0.0,Up,No
+47,50,Masculino,Angina atípica,140,216,<= 120 mg/dl,Normal,170,No,0.0,Up,No
+48,36,Masculino,Dolor no anginoso,112,340,<= 120 mg/dl,Normal,184,No,1.0,Flat,No
+49,41,Masculino,Asintomático,110,289,<= 120 mg/dl,Normal,170,No,0.0,Flat,Si
+50,50,Masculino,Asintomático,130,233,<= 120 mg/dl,Normal,121,Si,2.0,Flat,Si
+51,47,Femenino,Asintomático,120,205,<= 120 mg/dl,Normal,98,Si,2.0,Flat,Si
+52,45,Masculino,Angina atípica,140,224,> 120 mg/dl,Normal,122,No,0.0,Up,No
+53,41,Femenino,Angina atípica,130,245,<= 120 mg/dl,Normal,150,No,0.0,Up,No
+54,52,Femenino,Asintomático,130,180,<= 120 mg/dl,Normal,140,Si,1.5,Flat,No
+55,51,Femenino,Angina atípica,160,194,<= 120 mg/dl,Normal,170,No,0.0,Up,No
+56,31,Masculino,Asintomático,120,270,<= 120 mg/dl,Normal,153,Si,1.5,Flat,Si
+57,58,Masculino,Dolor no anginoso,130,213,<= 120 mg/dl,ST,140,No,0.0,Flat,Si
+58,54,Masculino,Asintomático,150,365,<= 120 mg/dl,ST,134,No,1.0,Up,No
+59,52,Masculino,Asintomático,112,342,<= 120 mg/dl,ST,96,Si,1.0,Flat,Si
+60,49,Masculino,Angina atípica,100,253,<= 120 mg/dl,Normal,174,No,0.0,Up,No
+61,43,Femenino,Dolor no anginoso,150,254,<= 120 mg/dl,Normal,175,No,0.0,Up,No
+62,45,Masculino,Asintomático,140,224,<= 120 mg/dl,Normal,144,No,0.0,Up,No
+63,46,Masculino,Asintomático,120,277,<= 120 mg/dl,Normal,125,Si,1.0,Flat,Si
+64,50,Femenino,Angina atípica,110,202,<= 120 mg/dl,Normal,145,No,0.0,Up,No
+65,37,Femenino,Angina atípica,120,260,<= 120 mg/dl,Normal,130,No,0.0,Up,No
+66,45,Femenino,Asintomático,132,297,<= 120 mg/dl,Normal,144,No,0.0,Up,No
+67,32,Masculino,Angina atípica,110,225,<= 120 mg/dl,Normal,184,No,0.0,Up,No
+68,52,Masculino,Asintomático,160,246,<= 120 mg/dl,ST,82,Si,4.0,Flat,Si
+69,44,Masculino,Asintomático,150,412,<= 120 mg/dl,Normal,170,No,0.0,Up,No
+70,57,Masculino,Angina atípica,140,265,<= 120 mg/dl,ST,145,Si,1.0,Flat,Si
+71,44,Masculino,Angina atípica,130,215,<= 120 mg/dl,Normal,135,No,0.0,Up,No
+72,52,Masculino,Asintomático,120,182,<= 120 mg/dl,Normal,150,No,0.0,Flat,Si
+73,44,Femenino,Asintomático,120,218,<= 120 mg/dl,ST,115,No,0.0,Up,No
+74,55,Masculino,Asintomático,140,268,<= 120 mg/dl,Normal,128,Si,1.5,Flat,Si
+75,46,Masculino,Dolor no anginoso,150,163,<= 120 mg/dl,Normal,116,No,0.0,Up,No
+76,32,Masculino,Asintomático,118,529,<= 120 mg/dl,Normal,130,No,0.0,Flat,Si
+77,35,Femenino,Asintomático,140,167,<= 120 mg/dl,Normal,150,No,0.0,Up,No
+78,52,Masculino,Angina atípica,140,100,<= 120 mg/dl,Normal,138,Si,0.0,Up,No
+79,49,Masculino,Asintomático,130,206,<= 120 mg/dl,Normal,170,No,0.0,Flat,Si
+80,55,Masculino,Dolor no anginoso,110,277,<= 120 mg/dl,Normal,160,No,0.0,Up,No
+81,54,Masculino,Angina atípica,120,238,<= 120 mg/dl,Normal,154,No,0.0,Up,No
+82,63,Masculino,Asintomático,150,223,<= 120 mg/dl,Normal,115,No,0.0,Flat,Si
+83,52,Masculino,Angina atípica,160,196,<= 120 mg/dl,Normal,165,No,0.0,Up,No
+84,56,Masculino,Asintomático,150,213,> 120 mg/dl,Normal,125,Si,1.0,Flat,Si
+85,66,Masculino,Asintomático,140,139,<= 120 mg/dl,Normal,94,Si,1.0,Flat,Si
+86,65,Masculino,Asintomático,170,263,> 120 mg/dl,Normal,112,Si,2.0,Flat,Si
+87,53,Femenino,Angina atípica,140,216,<= 120 mg/dl,Normal,142,Si,2.0,Flat,No
+88,43,Masculino,Angina típica,120,291,<= 120 mg/dl,ST,155,No,0.0,Flat,Si
+89,55,Masculino,Asintomático,140,229,<= 120 mg/dl,Normal,110,Si,0.5,Flat,No
+90,49,Femenino,Angina atípica,110,208,<= 120 mg/dl,Normal,160,No,0.0,Up,No
+91,39,Masculino,Asintomático,130,307,<= 120 mg/dl,Normal,140,No,0.0,Up,No
+92,52,Femenino,Angina atípica,120,210,<= 120 mg/dl,Normal,148,No,0.0,Up,No
+93,48,Masculino,Asintomático,160,329,<= 120 mg/dl,Normal,92,Si,1.5,Flat,Si
+94,39,Femenino,Dolor no anginoso,110,182,<= 120 mg/dl,ST,180,No,0.0,Up,No
+95,58,Masculino,Asintomático,130,263,<= 120 mg/dl,Normal,140,Si,2.0,Flat,Si
+96,43,Masculino,Angina atípica,142,207,<= 120 mg/dl,Normal,138,No,0.0,Up,No
+97,39,Masculino,Dolor no anginoso,160,147,> 120 mg/dl,Normal,160,No,0.0,Up,No
+98,56,Masculino,Asintomático,120,85,<= 120 mg/dl,Normal,140,No,0.0,Up,No
+99,41,Masculino,Angina atípica,125,269,<= 120 mg/dl,Normal,144,No,0.0,Up,No
+100,65,Masculino,Asintomático,130,275,<= 120 mg/dl,ST,115,Si,1.0,Flat,Si
+101,51,Masculino,Asintomático,130,179,<= 120 mg/dl,Normal,100,No,0.0,Up,No
+102,40,Femenino,Asintomático,150,392,<= 120 mg/dl,Normal,130,No,2.0,Flat,Si
+103,40,Masculino,Asintomático,120,466,> 120 mg/dl,Normal,152,Si,1.0,Flat,Si
+104,46,Masculino,Asintomático,118,186,<= 120 mg/dl,Normal,124,No,0.0,Flat,Si
+105,57,Masculino,Angina atípica,140,260,> 120 mg/dl,Normal,140,No,0.0,Up,No
+106,48,Femenino,Asintomático,120,254,<= 120 mg/dl,ST,110,No,0.0,Up,No
+107,34,Masculino,Angina atípica,150,214,<= 120 mg/dl,ST,168,No,0.0,Up,No
+108,50,Masculino,Asintomático,140,129,<= 120 mg/dl,Normal,135,No,0.0,Up,No
+109,39,Masculino,Angina atípica,190,241,<= 120 mg/dl,Normal,106,No,0.0,Up,No
+110,59,Femenino,Angina atípica,130,188,<= 120 mg/dl,Normal,124,No,1.0,Flat,No
+111,57,Masculino,Asintomático,150,255,<= 120 mg/dl,Normal,92,Si,3.0,Flat,Si
+112,47,Masculino,Asintomático,140,276,> 120 mg/dl,Normal,125,Si,0.0,Up,No
+113,38,Masculino,Angina atípica,140,297,<= 120 mg/dl,Normal,150,No,0.0,Up,No
+114,49,Femenino,Dolor no anginoso,130,207,<= 120 mg/dl,ST,135,No,0.0,Up,No
+115,33,Femenino,Asintomático,100,246,<= 120 mg/dl,Normal,150,Si,1.0,Flat,Si
+116,38,Masculino,Asintomático,120,282,<= 120 mg/dl,Normal,170,No,0.0,Flat,Si
+117,59,Femenino,Asintomático,130,338,> 120 mg/dl,ST,130,Si,1.5,Flat,Si
+118,35,Femenino,Angina típica,120,160,<= 120 mg/dl,ST,185,No,0.0,Up,No
+119,34,Masculino,Angina típica,140,156,<= 120 mg/dl,Normal,180,No,0.0,Flat,Si
+120,47,Femenino,Dolor no anginoso,135,248,> 120 mg/dl,Normal,170,No,0.0,Flat,Si
+121,52,Femenino,Dolor no anginoso,125,272,<= 120 mg/dl,Normal,139,No,0.0,Up,No
+122,46,Masculino,Asintomático,110,240,<= 120 mg/dl,ST,140,No,0.0,Up,No
+123,58,Femenino,Angina atípica,180,393,<= 120 mg/dl,Normal,110,Si,1.0,Flat,Si
+124,58,Masculino,Angina atípica,130,230,<= 120 mg/dl,Normal,150,No,0.0,Up,No
+125,54,Masculino,Angina atípica,120,246,<= 120 mg/dl,Normal,110,No,0.0,Up,No
+126,34,Femenino,Angina atípica,130,161,<= 120 mg/dl,Normal,190,No,0.0,Up,No
+127,48,Femenino,Asintomático,108,163,<= 120 mg/dl,Normal,175,No,2.0,Up,No
+128,54,Femenino,Angina atípica,120,230,> 120 mg/dl,Normal,140,No,0.0,Up,No
+129,42,Masculino,Dolor no anginoso,120,228,<= 120 mg/dl,Normal,152,Si,1.5,Flat,No
+130,38,Masculino,Dolor no anginoso,145,292,<= 120 mg/dl,Normal,130,No,0.0,Up,No
+131,46,Masculino,Asintomático,110,202,<= 120 mg/dl,Normal,150,Si,0.0,Flat,Si
+132,56,Masculino,Asintomático,170,388,<= 120 mg/dl,ST,122,Si,2.0,Flat,Si
+133,56,Masculino,Asintomático,150,230,<= 120 mg/dl,ST,124,Si,1.5,Flat,Si
+134,61,Femenino,Asintomático,130,294,<= 120 mg/dl,ST,120,Si,1.0,Flat,No
+135,49,Masculino,Dolor no anginoso,115,265,<= 120 mg/dl,Normal,175,No,0.0,Flat,Si
+136,43,Femenino,Angina atípica,120,215,<= 120 mg/dl,ST,175,No,0.0,Up,No
+137,39,Masculino,Angina atípica,120,241,<= 120 mg/dl,ST,146,No,2.0,Up,No
+138,54,Masculino,Asintomático,140,166,<= 120 mg/dl,Normal,118,Si,0.0,Flat,Si
+139,43,Masculino,Asintomático,150,247,<= 120 mg/dl,Normal,130,Si,2.0,Flat,Si
+140,52,Masculino,Asintomático,160,331,<= 120 mg/dl,Normal,94,Si,2.5,Flat,Si
+141,50,Masculino,Asintomático,140,341,<= 120 mg/dl,ST,125,Si,2.5,Flat,Si
+142,47,Masculino,Asintomático,160,291,<= 120 mg/dl,ST,158,Si,3.0,Flat,Si
+143,53,Masculino,Asintomático,140,243,<= 120 mg/dl,Normal,155,No,0.0,Up,No
+144,56,Femenino,Angina atípica,120,279,<= 120 mg/dl,Normal,150,No,1.0,Flat,Si
+145,39,Masculino,Asintomático,110,273,<= 120 mg/dl,Normal,132,No,0.0,Up,No
+146,42,Masculino,Angina atípica,120,198,<= 120 mg/dl,Normal,155,No,0.0,Up,No
+147,43,Femenino,Angina atípica,120,249,<= 120 mg/dl,ST,176,No,0.0,Up,No
+148,50,Masculino,Angina atípica,120,168,<= 120 mg/dl,Normal,160,No,0.0,Up,No
+149,54,Masculino,Asintomático,130,603,> 120 mg/dl,Normal,125,Si,1.0,Flat,Si
+150,39,Masculino,Angina atípica,130,215,<= 120 mg/dl,Normal,120,No,0.0,Up,No
+151,48,Masculino,Angina atípica,100,159,<= 120 mg/dl,Normal,100,No,0.0,Up,No
+152,40,Masculino,Angina atípica,130,275,<= 120 mg/dl,Normal,150,No,0.0,Up,No
+153,55,Masculino,Asintomático,120,270,<= 120 mg/dl,Normal,140,No,0.0,Up,No
+154,41,Masculino,Angina atípica,120,291,<= 120 mg/dl,ST,160,No,0.0,Up,No
+155,56,Masculino,Asintomático,155,342,> 120 mg/dl,Normal,150,Si,3.0,Flat,Si
+156,38,Masculino,Asintomático,110,190,<= 120 mg/dl,Normal,150,Si,1.0,Flat,Si
+157,49,Masculino,Asintomático,140,185,<= 120 mg/dl,Normal,130,No,0.0,Up,No
+158,44,Masculino,Asintomático,130,290,<= 120 mg/dl,Normal,100,Si,2.0,Flat,Si
+159,54,Masculino,Angina atípica,160,195,<= 120 mg/dl,ST,130,No,1.0,Up,No
+160,59,Masculino,Asintomático,140,264,> 120 mg/dl,LVH,119,Si,0.0,Flat,Si
+161,49,Masculino,Asintomático,128,212,<= 120 mg/dl,Normal,96,Si,0.0,Flat,Si
+162,47,Masculino,Angina atípica,160,263,<= 120 mg/dl,Normal,174,No,0.0,Up,No
+163,42,Masculino,Angina atípica,120,196,<= 120 mg/dl,Normal,150,No,0.0,Up,No
+164,52,Femenino,Angina atípica,140,225,<= 120 mg/dl,Normal,140,No,0.0,Up,No
+165,46,Masculino,Angina típica,140,272,> 120 mg/dl,Normal,175,No,2.0,Flat,Si
+166,50,Masculino,Asintomático,140,231,<= 120 mg/dl,ST,140,Si,5.0,Flat,Si
+167,48,Masculino,Angina atípica,140,238,<= 120 mg/dl,Normal,118,No,0.0,Up,No
+168,58,Masculino,Asintomático,135,222,<= 120 mg/dl,Normal,100,No,0.0,Up,No
+169,58,Masculino,Dolor no anginoso,140,179,<= 120 mg/dl,Normal,160,No,0.0,Up,No
+170,29,Masculino,Angina atípica,120,243,<= 120 mg/dl,Normal,160,No,0.0,Up,No
+171,40,Masculino,Dolor no anginoso,140,235,<= 120 mg/dl,Normal,188,No,0.0,Up,No
+172,53,Masculino,Angina atípica,140,320,<= 120 mg/dl,Normal,162,No,0.0,Up,No
+173,49,Masculino,Dolor no anginoso,140,187,<= 120 mg/dl,Normal,172,No,0.0,Up,No
+174,52,Masculino,Asintomático,140,266,<= 120 mg/dl,Normal,134,Si,2.0,Flat,Si
+175,43,Masculino,Asintomático,140,288,<= 120 mg/dl,Normal,135,Si,2.0,Flat,Si
+176,54,Masculino,Asintomático,140,216,<= 120 mg/dl,Normal,105,No,1.5,Flat,Si
+177,59,Masculino,Angina atípica,140,287,<= 120 mg/dl,Normal,150,No,0.0,Up,No
+178,37,Masculino,Dolor no anginoso,130,194,<= 120 mg/dl,Normal,150,No,0.0,Up,No
+179,46,Femenino,Asintomático,130,238,<= 120 mg/dl,Normal,90,No,0.0,Up,No
+180,52,Masculino,Asintomático,130,225,<= 120 mg/dl,Normal,120,Si,2.0,Flat,Si
+181,51,Masculino,Angina atípica,130,224,<= 120 mg/dl,Normal,150,No,0.0,Up,No
+182,52,Masculino,Asintomático,140,404,<= 120 mg/dl,Normal,124,Si,2.0,Flat,Si
+183,46,Masculino,Asintomático,110,238,<= 120 mg/dl,ST,140,Si,1.0,Flat,No
+184,54,Femenino,Angina atípica,160,312,<= 120 mg/dl,Normal,130,No,0.0,Up,No
+185,58,Masculino,Dolor no anginoso,160,211,> 120 mg/dl,ST,92,No,0.0,Flat,Si
+186,58,Masculino,Angina atípica,130,251,<= 120 mg/dl,Normal,110,No,0.0,Up,No
+187,41,Masculino,Asintomático,120,237,> 120 mg/dl,Normal,138,Si,1.0,Flat,Si
+188,50,Femenino,Asintomático,120,328,<= 120 mg/dl,Normal,110,Si,1.0,Flat,No
+189,53,Masculino,Asintomático,180,285,<= 120 mg/dl,ST,120,Si,1.5,Flat,Si
+190,46,Masculino,Asintomático,180,280,<= 120 mg/dl,ST,120,No,0.0,Up,No
+191,50,Masculino,Angina atípica,170,209,<= 120 mg/dl,ST,116,No,0.0,Up,No
+192,48,Masculino,Angina atípica,130,245,<= 120 mg/dl,Normal,160,No,0.0,Up,No
+193,45,Masculino,Dolor no anginoso,135,192,<= 120 mg/dl,Normal,110,No,0.0,Up,No
+194,41,Femenino,Angina atípica,125,184,<= 120 mg/dl,Normal,180,No,0.0,Up,No
+195,62,Femenino,Angina típica,160,193,<= 120 mg/dl,Normal,116,No,0.0,Up,No
+196,49,Masculino,Asintomático,120,297,<= 120 mg/dl,Normal,132,No,1.0,Flat,No
+197,42,Masculino,Angina atípica,150,268,<= 120 mg/dl,Normal,136,No,0.0,Up,No
+198,53,Masculino,Asintomático,120,246,<= 120 mg/dl,Normal,116,Si,0.0,Flat,Si
+199,57,Femenino,Angina típica,130,308,<= 120 mg/dl,Normal,98,No,1.0,Flat,No
+200,47,Masculino,Angina típica,110,249,<= 120 mg/dl,Normal,150,No,0.0,Up,No
+201,46,Masculino,Dolor no anginoso,120,230,<= 120 mg/dl,Normal,150,No,0.0,Up,No
+202,42,Masculino,Dolor no anginoso,160,147,<= 120 mg/dl,Normal,146,No,0.0,Up,No
+203,31,Femenino,Angina atípica,100,219,<= 120 mg/dl,ST,150,No,0.0,Up,No
+204,56,Masculino,Angina atípica,130,184,<= 120 mg/dl,Normal,100,No,0.0,Up,No
+205,50,Masculino,Asintomático,150,215,<= 120 mg/dl,Normal,140,Si,0.0,Up,No
+206,35,Masculino,Angina atípica,120,308,<= 120 mg/dl,LVH,180,No,0.0,Up,No
+207,35,Masculino,Angina atípica,110,257,<= 120 mg/dl,Normal,140,No,0.0,Flat,Si
+208,28,Masculino,Angina atípica,130,132,<= 120 mg/dl,LVH,185,No,0.0,Up,No
+209,54,Masculino,Asintomático,125,216,<= 120 mg/dl,Normal,140,No,0.0,Flat,Si
+210,48,Masculino,Asintomático,106,263,> 120 mg/dl,Normal,110,No,0.0,Flat,Si
+211,50,Femenino,Dolor no anginoso,140,288,<= 120 mg/dl,Normal,140,Si,0.0,Flat,Si
+212,56,Masculino,Dolor no anginoso,130,276,<= 120 mg/dl,Normal,128,Si,1.0,Up,No
+213,56,Femenino,Dolor no anginoso,130,219,<= 120 mg/dl,ST,164,No,0.0,Up,No
+214,47,Masculino,Asintomático,150,226,<= 120 mg/dl,Normal,98,Si,1.5,Flat,Si
+215,30,Femenino,Angina típica,170,237,<= 120 mg/dl,ST,170,No,0.0,Up,No
+216,39,Masculino,Asintomático,110,280,<= 120 mg/dl,Normal,150,No,0.0,Flat,Si
+217,54,Masculino,Dolor no anginoso,120,217,<= 120 mg/dl,Normal,137,No,0.0,Up,No
+218,55,Masculino,Angina atípica,140,196,<= 120 mg/dl,Normal,150,No,0.0,Up,No
+219,29,Masculino,Angina atípica,140,263,<= 120 mg/dl,Normal,170,No,0.0,Up,No
+220,46,Masculino,Asintomático,130,222,<= 120 mg/dl,Normal,112,No,0.0,Flat,Si
+221,51,Femenino,Asintomático,160,303,<= 120 mg/dl,Normal,150,Si,1.0,Flat,Si
+222,48,Femenino,Dolor no anginoso,120,195,<= 120 mg/dl,Normal,125,No,0.0,Up,No
+223,33,Masculino,Dolor no anginoso,120,298,<= 120 mg/dl,Normal,185,No,0.0,Up,No
+224,55,Masculino,Angina atípica,120,256,> 120 mg/dl,Normal,137,No,0.0,Up,No
+225,50,Masculino,Asintomático,145,264,<= 120 mg/dl,Normal,150,No,0.0,Flat,Si
+226,53,Masculino,Dolor no anginoso,120,195,<= 120 mg/dl,Normal,140,No,0.0,Up,No
+227,38,Masculino,Asintomático,92,117,<= 120 mg/dl,Normal,134,Si,2.5,Flat,Si
+228,41,Masculino,Angina atípica,120,295,<= 120 mg/dl,Normal,170,No,0.0,Up,No
+229,37,Femenino,Asintomático,130,173,<= 120 mg/dl,ST,184,No,0.0,Up,No
+230,37,Masculino,Asintomático,130,315,<= 120 mg/dl,Normal,158,No,0.0,Up,No
+231,40,Masculino,Dolor no anginoso,130,281,<= 120 mg/dl,Normal,167,No,0.0,Up,No
+232,38,Femenino,Angina atípica,120,275,<= 120 mg/dl,Normal,129,No,0.0,Up,No
+233,41,Masculino,Asintomático,112,250,<= 120 mg/dl,Normal,142,No,0.0,Up,No
+234,54,Femenino,Angina atípica,140,309,<= 120 mg/dl,ST,140,No,0.0,Up,No
+235,39,Masculino,Angina atípica,120,200,<= 120 mg/dl,Normal,160,Si,1.0,Flat,No
+236,41,Masculino,Asintomático,120,336,<= 120 mg/dl,Normal,118,Si,3.0,Flat,Si
+237,55,Masculino,Angina típica,140,295,<= 120 mg/dl,Normal,136,No,0.0,Flat,Si
+238,48,Masculino,Asintomático,160,355,<= 120 mg/dl,Normal,99,Si,2.0,Flat,Si
+239,48,Masculino,Asintomático,160,193,<= 120 mg/dl,Normal,102,Si,3.0,Flat,Si
+240,55,Masculino,Angina atípica,145,326,<= 120 mg/dl,Normal,155,No,0.0,Up,No
+241,54,Masculino,Asintomático,200,198,<= 120 mg/dl,Normal,142,Si,2.0,Flat,Si
+242,55,Masculino,Angina atípica,160,292,> 120 mg/dl,Normal,143,Si,2.0,Flat,Si
+243,43,Femenino,Angina atípica,120,266,<= 120 mg/dl,Normal,118,No,0.0,Up,No
+244,48,Masculino,Asintomático,160,268,<= 120 mg/dl,Normal,103,Si,1.0,Flat,Si
+245,54,Masculino,Angina típica,120,171,<= 120 mg/dl,Normal,137,No,2.0,Up,No
+246,54,Masculino,Dolor no anginoso,120,237,<= 120 mg/dl,Normal,150,Si,1.5,Flat,Si
+247,48,Masculino,Asintomático,122,275,> 120 mg/dl,ST,150,Si,2.0,Down,Si
+248,45,Masculino,Asintomático,130,219,<= 120 mg/dl,ST,130,Si,1.0,Flat,Si
+249,49,Masculino,Asintomático,130,341,<= 120 mg/dl,Normal,120,Si,1.0,Flat,Si
+250,44,Masculino,Asintomático,135,491,<= 120 mg/dl,Normal,135,No,0.0,Flat,Si
+251,48,Masculino,Asintomático,120,260,<= 120 mg/dl,Normal,115,No,2.0,Flat,Si
+252,61,Masculino,Asintomático,125,292,<= 120 mg/dl,ST,115,Si,0.0,Up,No
+253,62,Masculino,Angina atípica,140,271,<= 120 mg/dl,Normal,152,No,1.0,Up,No
+254,55,Masculino,Asintomático,145,248,<= 120 mg/dl,Normal,96,Si,2.0,Flat,Si
+255,53,Femenino,Dolor no anginoso,120,274,<= 120 mg/dl,Normal,130,No,0.0,Up,No
+256,55,Femenino,Angina atípica,130,394,<= 120 mg/dl,LVH,150,No,0.0,Up,No
+257,36,Masculino,Dolor no anginoso,150,160,<= 120 mg/dl,Normal,172,No,0.0,Up,No
+258,51,Femenino,Dolor no anginoso,150,200,<= 120 mg/dl,Normal,120,No,0.5,Up,No
+259,55,Femenino,Angina atípica,122,320,<= 120 mg/dl,Normal,155,No,0.0,Up,No
+260,46,Masculino,Angina atípica,140,275,<= 120 mg/dl,Normal,165,Si,0.0,Up,No
+261,54,Femenino,Angina atípica,120,221,<= 120 mg/dl,Normal,138,No,1.0,Up,No
+262,46,Masculino,Asintomático,120,231,<= 120 mg/dl,Normal,115,Si,0.0,Flat,Si
+263,59,Masculino,Asintomático,130,126,<= 120 mg/dl,Normal,125,No,0.0,Flat,Si
+264,47,Masculino,Dolor no anginoso,140,193,<= 120 mg/dl,Normal,145,Si,1.0,Flat,Si
+265,54,Masculino,Angina atípica,160,305,<= 120 mg/dl,Normal,175,No,0.0,Up,No
+266,52,Masculino,Asintomático,130,298,<= 120 mg/dl,Normal,110,Si,1.0,Flat,Si
+267,34,Masculino,Angina atípica,98,220,<= 120 mg/dl,Normal,150,No,0.0,Up,No
+268,54,Masculino,Asintomático,130,242,<= 120 mg/dl,Normal,91,Si,1.0,Flat,Si
+269,47,Femenino,Dolor no anginoso,130,235,<= 120 mg/dl,Normal,145,No,2.0,Flat,No
+270,45,Masculino,Asintomático,120,225,<= 120 mg/dl,Normal,140,No,0.0,Up,No
+271,32,Femenino,Angina atípica,105,198,<= 120 mg/dl,Normal,165,No,0.0,Up,No
+272,55,Masculino,Asintomático,140,201,<= 120 mg/dl,Normal,130,Si,3.0,Flat,Si
+273,55,Masculino,Dolor no anginoso,120,220,<= 120 mg/dl,LVH,134,No,0.0,Up,No
+274,45,Femenino,Angina atípica,180,295,<= 120 mg/dl,Normal,180,No,0.0,Up,No
+275,59,Masculino,Dolor no anginoso,180,213,<= 120 mg/dl,Normal,100,No,0.0,Up,No
+276,51,Masculino,Dolor no anginoso,135,160,<= 120 mg/dl,Normal,150,No,2.0,Flat,Si
+277,52,Masculino,Asintomático,170,223,<= 120 mg/dl,Normal,126,Si,1.5,Flat,Si
+278,57,Femenino,Asintomático,180,347,<= 120 mg/dl,ST,126,Si,0.8,Flat,No
+279,54,Femenino,Angina atípica,130,253,<= 120 mg/dl,ST,155,No,0.0,Up,No
+280,60,Masculino,Dolor no anginoso,120,246,<= 120 mg/dl,LVH,135,No,0.0,Up,No
+281,49,Masculino,Asintomático,150,222,<= 120 mg/dl,Normal,122,No,2.0,Flat,Si
+282,51,Femenino,Dolor no anginoso,130,220,<= 120 mg/dl,Normal,160,Si,2.0,Up,No
+283,55,Femenino,Angina atípica,110,344,<= 120 mg/dl,ST,160,No,0.0,Up,No
+284,42,Masculino,Asintomático,140,358,<= 120 mg/dl,Normal,170,No,0.0,Up,No
+285,51,Femenino,Dolor no anginoso,110,190,<= 120 mg/dl,Normal,120,No,0.0,Up,No
+286,59,Masculino,Asintomático,140,169,<= 120 mg/dl,Normal,140,No,0.0,Up,No
+287,53,Masculino,Angina atípica,120,181,<= 120 mg/dl,Normal,132,No,0.0,Up,No
+288,48,Femenino,Angina atípica,133,308,<= 120 mg/dl,ST,156,No,2.0,Up,No
+289,36,Masculino,Angina atípica,120,166,<= 120 mg/dl,Normal,180,No,0.0,Up,No
+290,48,Masculino,Dolor no anginoso,110,211,<= 120 mg/dl,Normal,138,No,0.0,Up,No
+291,47,Femenino,Angina atípica,140,257,<= 120 mg/dl,Normal,135,No,1.0,Up,No
+292,53,Masculino,Asintomático,130,182,<= 120 mg/dl,Normal,148,No,0.0,Up,No
+293,65,Masculino,Asintomático,115,0,<= 120 mg/dl,Normal,93,Si,0.0,Flat,Si
+294,32,Masculino,Angina típica,95,0,> 120 mg/dl,Normal,127,No,0.7,Up,Si
+295,61,Masculino,Asintomático,105,0,> 120 mg/dl,Normal,110,Si,1.5,Up,Si
+296,50,Masculino,Asintomático,145,0,> 120 mg/dl,Normal,139,Si,0.7,Flat,Si
+297,57,Masculino,Asintomático,110,0,> 120 mg/dl,ST,131,Si,1.4,Up,Si
+298,51,Masculino,Asintomático,110,0,> 120 mg/dl,Normal,92,No,0.0,Flat,Si
+299,47,Masculino,Asintomático,110,0,> 120 mg/dl,ST,149,No,2.1,Up,Si
+300,60,Masculino,Asintomático,160,0,> 120 mg/dl,Normal,149,No,0.4,Flat,Si
+301,55,Masculino,Angina atípica,140,0,<= 120 mg/dl,ST,150,No,0.2,Up,No
+302,53,Masculino,Asintomático,125,0,> 120 mg/dl,Normal,120,No,1.5,Up,Si
+303,62,Femenino,Asintomático,120,0,> 120 mg/dl,ST,123,Si,1.7,Down,Si
+304,51,Masculino,Asintomático,95,0,> 120 mg/dl,Normal,126,No,2.2,Flat,Si
+305,51,Femenino,Asintomático,120,0,> 120 mg/dl,Normal,127,Si,1.5,Up,Si
+306,55,Masculino,Asintomático,115,0,> 120 mg/dl,Normal,155,No,0.1,Flat,Si
+307,53,Masculino,Angina atípica,130,0,<= 120 mg/dl,ST,120,No,0.7,Down,No
+308,58,Masculino,Asintomático,115,0,> 120 mg/dl,Normal,138,No,0.5,Up,Si
+309,57,Masculino,Asintomático,95,0,> 120 mg/dl,Normal,182,No,0.7,Down,Si
+310,65,Masculino,Asintomático,155,0,<= 120 mg/dl,Normal,154,No,1.0,Up,No
+311,60,Masculino,Asintomático,125,0,> 120 mg/dl,Normal,110,No,0.1,Up,Si
+312,41,Masculino,Asintomático,125,0,> 120 mg/dl,Normal,176,No,1.6,Up,Si
+313,34,Masculino,Asintomático,115,0,> 120 mg/dl,Normal,154,No,0.2,Up,Si
+314,53,Masculino,Asintomático,80,0,<= 120 mg/dl,Normal,141,Si,2.0,Down,No
+315,74,Masculino,Angina atípica,145,0,> 120 mg/dl,ST,123,No,1.3,Up,Si
+316,57,Masculino,Dolor no anginoso,105,0,> 120 mg/dl,Normal,148,No,0.3,Flat,Si
+317,56,Masculino,Asintomático,140,0,> 120 mg/dl,Normal,121,Si,1.8,Up,Si
+318,61,Masculino,Asintomático,130,0,> 120 mg/dl,Normal,77,No,2.5,Flat,Si
+319,68,Masculino,Asintomático,145,0,> 120 mg/dl,Normal,136,No,1.8,Up,Si
+320,59,Masculino,Dolor no anginoso,125,0,> 120 mg/dl,Normal,175,No,2.6,Flat,Si
+321,63,Masculino,Asintomático,100,0,> 120 mg/dl,Normal,109,No,-0.9,Flat,Si
+322,38,Femenino,Asintomático,105,0,> 120 mg/dl,Normal,166,No,2.8,Up,Si
+323,62,Masculino,Asintomático,115,0,> 120 mg/dl,Normal,128,Si,2.5,Down,Si
+324,46,Masculino,Asintomático,100,0,> 120 mg/dl,ST,133,No,-2.6,Flat,Si
+325,42,Masculino,Asintomático,105,0,> 120 mg/dl,Normal,128,Si,-1.5,Down,Si
+326,45,Masculino,Dolor no anginoso,110,0,<= 120 mg/dl,Normal,138,No,-0.1,Up,No
+327,59,Masculino,Asintomático,125,0,> 120 mg/dl,Normal,119,Si,0.9,Up,Si
+328,52,Masculino,Asintomático,95,0,> 120 mg/dl,Normal,82,Si,0.8,Flat,Si
+329,60,Masculino,Asintomático,130,0,> 120 mg/dl,ST,130,Si,1.1,Down,Si
+330,60,Masculino,Dolor no anginoso,115,0,> 120 mg/dl,Normal,143,No,2.4,Up,Si
+331,56,Masculino,Asintomático,115,0,> 120 mg/dl,ST,82,No,-1.0,Up,Si
+332,38,Masculino,Dolor no anginoso,100,0,<= 120 mg/dl,Normal,179,No,-1.1,Up,No
+333,40,Masculino,Asintomático,95,0,> 120 mg/dl,ST,144,No,0.0,Up,Si
+334,51,Masculino,Asintomático,130,0,> 120 mg/dl,Normal,170,No,-0.7,Up,Si
+335,62,Masculino,Angina típica,120,0,> 120 mg/dl,LVH,134,No,-0.8,Flat,Si
+336,72,Masculino,Dolor no anginoso,160,0,<= 120 mg/dl,LVH,114,No,1.6,Flat,No
+337,63,Masculino,Asintomático,150,0,> 120 mg/dl,ST,154,No,3.7,Up,Si
+338,63,Masculino,Asintomático,140,0,> 120 mg/dl,LVH,149,No,2.0,Up,Si
+339,64,Femenino,Asintomático,95,0,> 120 mg/dl,Normal,145,No,1.1,Down,Si
+340,43,Masculino,Asintomático,100,0,> 120 mg/dl,Normal,122,No,1.5,Down,Si
+341,64,Masculino,Asintomático,110,0,> 120 mg/dl,Normal,114,Si,1.3,Down,Si
+342,61,Masculino,Asintomático,110,0,> 120 mg/dl,Normal,113,No,1.4,Flat,Si
+343,52,Masculino,Asintomático,130,0,> 120 mg/dl,Normal,120,No,0.0,Flat,Si
+344,51,Masculino,Asintomático,120,0,> 120 mg/dl,Normal,104,No,0.0,Flat,Si
+345,69,Masculino,Asintomático,135,0,<= 120 mg/dl,Normal,130,No,0.0,Flat,Si
+346,59,Masculino,Asintomático,120,0,<= 120 mg/dl,Normal,115,No,0.0,Flat,Si
+347,48,Masculino,Asintomático,115,0,> 120 mg/dl,Normal,128,No,0.0,Flat,Si
+348,69,Masculino,Asintomático,137,0,<= 120 mg/dl,ST,104,Si,1.6,Flat,Si
+349,36,Masculino,Asintomático,110,0,> 120 mg/dl,Normal,125,Si,1.0,Flat,Si
+350,53,Masculino,Asintomático,120,0,> 120 mg/dl,Normal,120,No,0.0,Flat,Si
+351,43,Masculino,Asintomático,140,0,<= 120 mg/dl,ST,140,Si,0.5,Up,Si
+352,56,Masculino,Asintomático,120,0,<= 120 mg/dl,ST,100,Si,-1.0,Down,Si
+353,58,Masculino,Asintomático,130,0,<= 120 mg/dl,ST,100,Si,1.0,Flat,Si
+354,55,Masculino,Asintomático,120,0,<= 120 mg/dl,ST,92,No,0.3,Up,Si
+355,67,Masculino,Angina típica,145,0,<= 120 mg/dl,LVH,125,No,0.0,Flat,Si
+356,46,Masculino,Asintomático,115,0,<= 120 mg/dl,Normal,113,Si,1.5,Flat,Si
+357,53,Masculino,Angina atípica,120,0,<= 120 mg/dl,Normal,95,No,0.0,Flat,Si
+358,38,Masculino,Dolor no anginoso,115,0,<= 120 mg/dl,Normal,128,Si,0.0,Flat,Si
+359,53,Masculino,Dolor no anginoso,105,0,<= 120 mg/dl,Normal,115,No,0.0,Flat,Si
+360,62,Masculino,Dolor no anginoso,160,0,<= 120 mg/dl,Normal,72,Si,0.0,Flat,Si
+361,47,Masculino,Asintomático,160,0,<= 120 mg/dl,Normal,124,Si,0.0,Flat,Si
+362,56,Masculino,Dolor no anginoso,155,0,<= 120 mg/dl,ST,99,No,0.0,Flat,Si
+363,56,Masculino,Asintomático,120,0,<= 120 mg/dl,ST,148,No,0.0,Flat,Si
+364,56,Masculino,Dolor no anginoso,120,0,<= 120 mg/dl,Normal,97,No,0.0,Flat,No
+365,64,Femenino,Asintomático,200,0,<= 120 mg/dl,Normal,140,Si,1.0,Flat,Si
+366,61,Masculino,Asintomático,150,0,<= 120 mg/dl,Normal,117,Si,2.0,Flat,Si
+367,68,Masculino,Asintomático,135,0,<= 120 mg/dl,ST,120,Si,0.0,Up,Si
+368,57,Masculino,Asintomático,140,0,<= 120 mg/dl,Normal,120,Si,2.0,Flat,Si
+369,63,Masculino,Asintomático,150,0,<= 120 mg/dl,Normal,86,Si,2.0,Flat,Si
+370,60,Masculino,Asintomático,135,0,<= 120 mg/dl,Normal,63,Si,0.5,Up,Si
+371,66,Masculino,Asintomático,150,0,<= 120 mg/dl,Normal,108,Si,2.0,Flat,Si
+372,63,Masculino,Asintomático,185,0,<= 120 mg/dl,Normal,98,Si,0.0,Up,Si
+373,59,Masculino,Asintomático,135,0,<= 120 mg/dl,Normal,115,Si,1.0,Flat,Si
+374,61,Masculino,Asintomático,125,0,<= 120 mg/dl,Normal,105,Si,0.0,Down,Si
+375,73,Femenino,Dolor no anginoso,160,0,<= 120 mg/dl,ST,121,No,0.0,Up,Si
+376,47,Masculino,Dolor no anginoso,155,0,<= 120 mg/dl,Normal,118,Si,1.0,Flat,Si
+377,65,Masculino,Asintomático,160,0,> 120 mg/dl,ST,122,No,1.2,Flat,Si
+378,70,Masculino,Asintomático,140,0,> 120 mg/dl,Normal,157,Si,2.0,Flat,Si
+379,50,Masculino,Asintomático,120,0,<= 120 mg/dl,ST,156,Si,0.0,Up,Si
+380,60,Masculino,Asintomático,160,0,<= 120 mg/dl,ST,99,Si,0.5,Flat,Si
+381,50,Masculino,Asintomático,115,0,<= 120 mg/dl,Normal,120,Si,0.5,Flat,Si
+382,43,Masculino,Asintomático,115,0,<= 120 mg/dl,Normal,145,Si,2.0,Flat,Si
+383,38,Femenino,Asintomático,110,0,<= 120 mg/dl,Normal,156,No,0.0,Flat,Si
+384,54,Masculino,Asintomático,120,0,<= 120 mg/dl,Normal,155,No,0.0,Flat,Si
+385,61,Masculino,Asintomático,150,0,<= 120 mg/dl,Normal,105,Si,0.0,Flat,Si
+386,42,Masculino,Asintomático,145,0,<= 120 mg/dl,Normal,99,Si,0.0,Flat,Si
+387,53,Masculino,Asintomático,130,0,<= 120 mg/dl,LVH,135,Si,1.0,Flat,Si
+388,55,Masculino,Asintomático,140,0,<= 120 mg/dl,Normal,83,No,0.0,Flat,Si
+389,61,Masculino,Asintomático,160,0,> 120 mg/dl,ST,145,No,1.0,Flat,Si
+390,51,Masculino,Asintomático,140,0,<= 120 mg/dl,Normal,60,No,0.0,Flat,Si
+391,70,Masculino,Asintomático,115,0,<= 120 mg/dl,ST,92,Si,0.0,Flat,Si
+392,61,Masculino,Asintomático,130,0,<= 120 mg/dl,LVH,115,No,0.0,Flat,Si
+393,38,Masculino,Asintomático,150,0,> 120 mg/dl,Normal,120,Si,0.7,Flat,Si
+394,57,Masculino,Asintomático,160,0,> 120 mg/dl,Normal,98,Si,2.0,Flat,Si
+395,38,Masculino,Asintomático,135,0,> 120 mg/dl,Normal,150,No,0.0,Flat,Si
+396,62,Femenino,Angina típica,140,0,> 120 mg/dl,Normal,143,No,0.0,Flat,Si
+397,58,Masculino,Asintomático,170,0,> 120 mg/dl,ST,105,Si,0.0,Flat,Si
+398,52,Masculino,Asintomático,165,0,> 120 mg/dl,Normal,122,Si,1.0,Up,Si
+399,61,Masculino,Dolor no anginoso,200,0,> 120 mg/dl,ST,70,No,0.0,Flat,Si
+400,50,Femenino,Asintomático,160,0,> 120 mg/dl,Normal,110,No,0.0,Flat,Si
+401,51,Masculino,Asintomático,130,0,> 120 mg/dl,ST,163,No,0.0,Flat,Si
+402,65,Masculino,Asintomático,145,0,> 120 mg/dl,ST,67,No,0.7,Flat,Si
+403,52,Masculino,Asintomático,135,0,> 120 mg/dl,Normal,128,Si,2.0,Flat,Si
+404,47,Masculino,Dolor no anginoso,110,0,> 120 mg/dl,Normal,120,Si,0.0,Flat,Si
+405,35,Masculino,Asintomático,120,0,> 120 mg/dl,Normal,130,Si,1.2,Flat,Si
+406,57,Masculino,Asintomático,140,0,> 120 mg/dl,Normal,100,Si,0.0,Flat,Si
+407,62,Masculino,Asintomático,115,0,> 120 mg/dl,Normal,72,Si,-0.5,Flat,Si
+408,59,Masculino,Asintomático,110,0,> 120 mg/dl,Normal,94,No,0.0,Flat,Si
+409,53,Masculino,Dolor no anginoso,160,0,> 120 mg/dl,LVH,122,Si,0.0,Flat,Si
+410,62,Masculino,Asintomático,150,0,> 120 mg/dl,ST,78,No,2.0,Flat,Si
+411,54,Masculino,Asintomático,180,0,> 120 mg/dl,Normal,150,No,1.5,Flat,Si
+412,56,Masculino,Asintomático,125,0,> 120 mg/dl,Normal,103,Si,1.0,Flat,Si
+413,56,Masculino,Dolor no anginoso,125,0,> 120 mg/dl,Normal,98,No,-2.0,Flat,Si
+414,54,Masculino,Asintomático,130,0,> 120 mg/dl,Normal,110,Si,3.0,Flat,Si
+415,66,Femenino,Asintomático,155,0,> 120 mg/dl,Normal,90,No,0.0,Flat,Si
+416,63,Masculino,Asintomático,140,260,<= 120 mg/dl,ST,112,Si,3.0,Flat,Si
+417,44,Masculino,Asintomático,130,209,<= 120 mg/dl,ST,127,No,0.0,Up,No
+418,60,Masculino,Asintomático,132,218,<= 120 mg/dl,ST,140,Si,1.5,Down,Si
+419,55,Masculino,Asintomático,142,228,<= 120 mg/dl,ST,149,Si,2.5,Up,Si
+420,66,Masculino,Dolor no anginoso,110,213,> 120 mg/dl,LVH,99,Si,1.3,Flat,No
+421,66,Masculino,Dolor no anginoso,120,0,<= 120 mg/dl,ST,120,No,-0.5,Up,No
+422,65,Masculino,Asintomático,150,236,> 120 mg/dl,ST,105,Si,0.0,Flat,Si
+423,60,Masculino,Dolor no anginoso,180,0,<= 120 mg/dl,ST,140,Si,1.5,Flat,No
+424,60,Masculino,Dolor no anginoso,120,0,> 120 mg/dl,Normal,141,Si,2.0,Up,Si
+425,60,Masculino,Angina atípica,160,267,> 120 mg/dl,ST,157,No,0.5,Flat,Si
+426,56,Masculino,Angina atípica,126,166,<= 120 mg/dl,ST,140,No,0.0,Up,No
+427,59,Masculino,Asintomático,140,0,<= 120 mg/dl,ST,117,Si,1.0,Flat,Si
+428,62,Masculino,Asintomático,110,0,<= 120 mg/dl,Normal,120,Si,0.5,Flat,Si
+429,63,Masculino,Dolor no anginoso,133,0,<= 120 mg/dl,LVH,120,Si,1.0,Flat,Si
+430,57,Masculino,Asintomático,128,0,> 120 mg/dl,ST,148,Si,1.0,Flat,Si
+431,62,Masculino,Asintomático,120,220,<= 120 mg/dl,ST,86,No,0.0,Up,No
+432,63,Masculino,Asintomático,170,177,<= 120 mg/dl,Normal,84,Si,2.5,Down,Si
+433,46,Masculino,Asintomático,110,236,<= 120 mg/dl,Normal,125,Si,2.0,Flat,Si
+434,63,Masculino,Asintomático,126,0,<= 120 mg/dl,ST,120,No,1.5,Down,No
+435,60,Masculino,Asintomático,152,0,<= 120 mg/dl,ST,118,Si,0.0,Up,No
+436,58,Masculino,Asintomático,116,0,<= 120 mg/dl,Normal,124,No,1.0,Up,Si
+437,64,Masculino,Asintomático,120,0,> 120 mg/dl,ST,106,No,2.0,Flat,Si
+438,63,Masculino,Dolor no anginoso,130,0,<= 120 mg/dl,ST,111,Si,0.0,Flat,Si
+439,74,Masculino,Dolor no anginoso,138,0,<= 120 mg/dl,Normal,116,No,0.2,Up,No
+440,52,Masculino,Dolor no anginoso,128,0,<= 120 mg/dl,ST,180,No,3.0,Up,Si
+441,69,Masculino,Asintomático,130,0,> 120 mg/dl,ST,129,No,1.0,Flat,Si
+442,51,Masculino,Asintomático,128,0,> 120 mg/dl,ST,125,Si,1.2,Flat,Si
+443,60,Masculino,Asintomático,130,186,> 120 mg/dl,ST,140,Si,0.5,Flat,Si
+444,56,Masculino,Asintomático,120,100,<= 120 mg/dl,Normal,120,Si,1.5,Flat,Si
+445,55,Masculino,Dolor no anginoso,136,228,<= 120 mg/dl,ST,124,Si,1.6,Flat,Si
+446,54,Masculino,Asintomático,130,0,<= 120 mg/dl,ST,117,Si,1.4,Flat,Si
+447,77,Masculino,Asintomático,124,171,<= 120 mg/dl,ST,110,Si,2.0,Up,Si
+448,63,Masculino,Asintomático,160,230,> 120 mg/dl,Normal,105,Si,1.0,Flat,Si
+449,55,Masculino,Dolor no anginoso,0,0,<= 120 mg/dl,Normal,155,No,1.5,Flat,Si
+450,52,Masculino,Dolor no anginoso,122,0,<= 120 mg/dl,Normal,110,Si,2.0,Down,Si
+451,64,Masculino,Asintomático,144,0,<= 120 mg/dl,ST,122,Si,1.0,Flat,Si
+452,60,Masculino,Asintomático,140,281,<= 120 mg/dl,ST,118,Si,1.5,Flat,Si
+453,60,Masculino,Asintomático,120,0,<= 120 mg/dl,Normal,133,Si,2.0,Up,No
+454,58,Masculino,Asintomático,136,203,> 120 mg/dl,Normal,123,Si,1.2,Flat,Si
+455,59,Masculino,Asintomático,154,0,<= 120 mg/dl,ST,131,Si,1.5,Up,No
+456,61,Masculino,Dolor no anginoso,120,0,<= 120 mg/dl,Normal,80,Si,0.0,Flat,Si
+457,40,Masculino,Asintomático,125,0,> 120 mg/dl,Normal,165,No,0.0,Flat,Si
+458,61,Masculino,Asintomático,134,0,> 120 mg/dl,ST,86,No,1.5,Flat,Si
+459,41,Masculino,Asintomático,104,0,<= 120 mg/dl,ST,111,No,0.0,Up,No
+460,57,Masculino,Asintomático,139,277,> 120 mg/dl,ST,118,Si,1.9,Flat,Si
+461,63,Masculino,Asintomático,136,0,<= 120 mg/dl,Normal,84,Si,0.0,Flat,Si
+462,59,Masculino,Asintomático,122,233,<= 120 mg/dl,Normal,117,Si,1.3,Down,Si
+463,51,Masculino,Asintomático,128,0,<= 120 mg/dl,Normal,107,No,0.0,Up,No
+464,59,Masculino,Dolor no anginoso,131,0,<= 120 mg/dl,Normal,128,Si,2.0,Down,Si
+465,42,Masculino,Dolor no anginoso,134,240,<= 120 mg/dl,Normal,160,No,0.0,Up,No
+466,55,Masculino,Dolor no anginoso,120,0,<= 120 mg/dl,ST,125,Si,2.5,Flat,Si
+467,63,Femenino,Angina atípica,132,0,<= 120 mg/dl,Normal,130,No,0.1,Up,No
+468,62,Masculino,Asintomático,152,153,<= 120 mg/dl,ST,97,Si,1.6,Up,Si
+469,56,Masculino,Angina atípica,124,224,> 120 mg/dl,Normal,161,No,2.0,Flat,No
+470,53,Masculino,Asintomático,126,0,<= 120 mg/dl,Normal,106,No,0.0,Flat,Si
+471,68,Masculino,Asintomático,138,0,<= 120 mg/dl,Normal,130,Si,3.0,Flat,Si
+472,53,Masculino,Asintomático,154,0,> 120 mg/dl,ST,140,Si,1.5,Flat,Si
+473,60,Masculino,Dolor no anginoso,141,316,> 120 mg/dl,ST,122,Si,1.7,Flat,Si
+474,62,Masculino,Angina atípica,131,0,<= 120 mg/dl,Normal,130,No,0.1,Up,No
+475,59,Masculino,Asintomático,178,0,> 120 mg/dl,LVH,120,Si,0.0,Flat,Si
+476,51,Masculino,Asintomático,132,218,> 120 mg/dl,LVH,139,No,0.1,Up,No
+477,61,Masculino,Asintomático,110,0,> 120 mg/dl,Normal,108,Si,2.0,Down,Si
+478,57,Masculino,Asintomático,130,311,> 120 mg/dl,ST,148,Si,2.0,Flat,Si
+479,56,Masculino,Dolor no anginoso,170,0,<= 120 mg/dl,LVH,123,Si,2.5,Flat,Si
+480,58,Masculino,Angina atípica,126,0,> 120 mg/dl,Normal,110,Si,2.0,Flat,Si
+481,69,Masculino,Dolor no anginoso,140,0,> 120 mg/dl,ST,118,No,2.5,Down,Si
+482,67,Masculino,Angina típica,142,270,> 120 mg/dl,Normal,125,No,2.5,Up,Si
+483,58,Masculino,Asintomático,120,0,<= 120 mg/dl,LVH,106,Si,1.5,Down,Si
+484,65,Masculino,Asintomático,134,0,<= 120 mg/dl,Normal,112,Si,1.1,Flat,Si
+485,63,Masculino,Angina atípica,139,217,> 120 mg/dl,ST,128,Si,1.2,Flat,Si
+486,55,Masculino,Angina atípica,110,214,> 120 mg/dl,ST,180,No,0.4,Up,No
+487,57,Masculino,Asintomático,140,214,<= 120 mg/dl,ST,144,Si,2.0,Flat,Si
+488,65,Masculino,Angina típica,140,252,<= 120 mg/dl,Normal,135,No,0.3,Up,No
+489,54,Masculino,Asintomático,136,220,<= 120 mg/dl,Normal,140,Si,3.0,Flat,Si
+490,72,Masculino,Dolor no anginoso,120,214,<= 120 mg/dl,Normal,102,Si,1.0,Flat,Si
+491,75,Masculino,Asintomático,170,203,> 120 mg/dl,ST,108,No,0.0,Flat,Si
+492,49,Masculino,Angina típica,130,0,<= 120 mg/dl,ST,145,No,3.0,Flat,Si
+493,51,Masculino,Dolor no anginoso,137,339,<= 120 mg/dl,Normal,127,Si,1.7,Flat,Si
+494,60,Masculino,Asintomático,142,216,<= 120 mg/dl,Normal,110,Si,2.5,Flat,Si
+495,64,Femenino,Asintomático,142,276,<= 120 mg/dl,Normal,140,Si,1.0,Flat,Si
+496,58,Masculino,Asintomático,132,458,> 120 mg/dl,Normal,69,No,1.0,Down,No
+497,61,Masculino,Asintomático,146,241,<= 120 mg/dl,Normal,148,Si,3.0,Down,Si
+498,67,Masculino,Asintomático,160,384,> 120 mg/dl,ST,130,Si,0.0,Flat,Si
+499,62,Masculino,Asintomático,135,297,<= 120 mg/dl,Normal,130,Si,1.0,Flat,Si
+500,65,Masculino,Asintomático,136,248,<= 120 mg/dl,Normal,140,Si,4.0,Down,Si
+501,63,Masculino,Asintomático,130,308,<= 120 mg/dl,Normal,138,Si,2.0,Flat,Si
+502,69,Masculino,Asintomático,140,208,<= 120 mg/dl,ST,140,Si,2.0,Flat,Si
+503,51,Masculino,Asintomático,132,227,> 120 mg/dl,ST,138,No,0.2,Up,No
+504,62,Masculino,Asintomático,158,210,> 120 mg/dl,Normal,112,Si,3.0,Down,Si
+505,55,Masculino,Dolor no anginoso,136,245,> 120 mg/dl,ST,131,Si,1.2,Flat,Si
+506,75,Masculino,Asintomático,136,225,<= 120 mg/dl,Normal,112,Si,3.0,Flat,Si
+507,40,Masculino,Dolor no anginoso,106,240,<= 120 mg/dl,Normal,80,Si,0.0,Up,No
+508,67,Masculino,Asintomático,120,0,> 120 mg/dl,Normal,150,No,1.5,Down,Si
+509,58,Masculino,Asintomático,110,198,<= 120 mg/dl,Normal,110,No,0.0,Flat,Si
+510,60,Masculino,Asintomático,136,195,<= 120 mg/dl,Normal,126,No,0.3,Up,No
+511,63,Masculino,Asintomático,160,267,> 120 mg/dl,ST,88,Si,2.0,Flat,Si
+512,35,Masculino,Dolor no anginoso,123,161,<= 120 mg/dl,ST,153,No,-0.1,Up,No
+513,62,Masculino,Angina típica,112,258,<= 120 mg/dl,ST,150,Si,1.3,Flat,Si
+514,43,Masculino,Asintomático,122,0,<= 120 mg/dl,Normal,120,No,0.5,Up,Si
+515,63,Masculino,Dolor no anginoso,130,0,> 120 mg/dl,ST,160,No,3.0,Flat,No
+516,68,Masculino,Dolor no anginoso,150,195,> 120 mg/dl,Normal,132,No,0.0,Flat,Si
+517,65,Masculino,Asintomático,150,235,<= 120 mg/dl,Normal,120,Si,1.5,Flat,Si
+518,48,Masculino,Dolor no anginoso,102,0,> 120 mg/dl,ST,110,Si,1.0,Down,Si
+519,63,Masculino,Asintomático,96,305,<= 120 mg/dl,ST,121,Si,1.0,Up,Si
+520,64,Masculino,Asintomático,130,223,<= 120 mg/dl,ST,128,No,0.5,Flat,No
+521,61,Masculino,Asintomático,120,282,<= 120 mg/dl,ST,135,Si,4.0,Down,Si
+522,50,Masculino,Asintomático,144,349,<= 120 mg/dl,LVH,120,Si,1.0,Up,Si
+523,59,Masculino,Asintomático,124,160,<= 120 mg/dl,Normal,117,Si,1.0,Flat,Si
+524,55,Masculino,Asintomático,150,160,<= 120 mg/dl,ST,150,No,0.0,Up,No
+525,45,Masculino,Dolor no anginoso,130,236,<= 120 mg/dl,Normal,144,No,0.1,Up,No
+526,65,Masculino,Asintomático,144,312,<= 120 mg/dl,LVH,113,Si,1.7,Flat,Si
+527,61,Masculino,Angina atípica,139,283,<= 120 mg/dl,Normal,135,No,0.3,Up,No
+528,49,Masculino,Dolor no anginoso,131,142,<= 120 mg/dl,Normal,127,Si,1.5,Flat,Si
+529,72,Masculino,Asintomático,143,211,<= 120 mg/dl,Normal,109,Si,1.4,Flat,Si
+530,50,Masculino,Asintomático,133,218,<= 120 mg/dl,Normal,128,Si,1.1,Flat,Si
+531,64,Masculino,Asintomático,143,306,> 120 mg/dl,ST,115,Si,1.8,Flat,Si
+532,55,Masculino,Asintomático,116,186,> 120 mg/dl,ST,102,No,0.0,Flat,Si
+533,63,Masculino,Asintomático,110,252,<= 120 mg/dl,ST,140,Si,2.0,Flat,Si
+534,59,Masculino,Asintomático,125,222,<= 120 mg/dl,Normal,135,Si,2.5,Down,Si
+535,56,Masculino,Asintomático,130,0,<= 120 mg/dl,LVH,122,Si,1.0,Flat,Si
+536,62,Masculino,Dolor no anginoso,133,0,> 120 mg/dl,ST,119,Si,1.2,Flat,Si
+537,74,Masculino,Asintomático,150,258,> 120 mg/dl,ST,130,Si,4.0,Down,Si
+538,54,Masculino,Asintomático,130,202,> 120 mg/dl,Normal,112,Si,2.0,Flat,Si
+539,57,Masculino,Asintomático,110,197,<= 120 mg/dl,LVH,100,No,0.0,Up,No
+540,62,Masculino,Dolor no anginoso,138,204,<= 120 mg/dl,ST,122,Si,1.2,Flat,Si
+541,76,Masculino,Dolor no anginoso,104,113,<= 120 mg/dl,LVH,120,No,3.5,Down,Si
+542,54,Femenino,Asintomático,138,274,<= 120 mg/dl,Normal,105,Si,1.5,Flat,Si
+543,70,Masculino,Asintomático,170,192,<= 120 mg/dl,ST,129,Si,3.0,Down,Si
+544,61,Femenino,Angina atípica,140,298,> 120 mg/dl,Normal,120,Si,0.0,Up,No
+545,48,Masculino,Asintomático,132,272,<= 120 mg/dl,ST,139,No,0.2,Up,No
+546,48,Masculino,Dolor no anginoso,132,220,> 120 mg/dl,ST,162,No,0.0,Flat,Si
+547,61,Masculino,Angina típica,142,200,> 120 mg/dl,ST,100,No,1.5,Down,Si
+548,66,Masculino,Asintomático,112,261,<= 120 mg/dl,Normal,140,No,1.5,Up,Si
+549,68,Masculino,Angina típica,139,181,> 120 mg/dl,ST,135,No,0.2,Up,No
+550,55,Masculino,Asintomático,172,260,<= 120 mg/dl,Normal,73,No,2.0,Flat,Si
+551,62,Masculino,Dolor no anginoso,120,220,<= 120 mg/dl,LVH,86,No,0.0,Up,No
+552,71,Masculino,Dolor no anginoso,144,221,<= 120 mg/dl,Normal,108,Si,1.8,Flat,Si
+553,74,Masculino,Angina típica,145,216,> 120 mg/dl,Normal,116,Si,1.8,Flat,Si
+554,53,Masculino,Dolor no anginoso,155,175,> 120 mg/dl,ST,160,No,0.3,Up,No
+555,58,Masculino,Dolor no anginoso,150,219,<= 120 mg/dl,ST,118,Si,0.0,Flat,Si
+556,75,Masculino,Asintomático,160,310,> 120 mg/dl,Normal,112,Si,2.0,Down,No
+557,56,Masculino,Dolor no anginoso,137,208,> 120 mg/dl,ST,122,Si,1.8,Flat,Si
+558,58,Masculino,Dolor no anginoso,137,232,<= 120 mg/dl,ST,124,Si,1.4,Flat,Si
+559,64,Masculino,Asintomático,134,273,<= 120 mg/dl,Normal,102,Si,4.0,Down,Si
+560,54,Masculino,Dolor no anginoso,133,203,<= 120 mg/dl,ST,137,No,0.2,Up,No
+561,54,Masculino,Angina atípica,132,182,<= 120 mg/dl,ST,141,No,0.1,Up,No
+562,59,Masculino,Asintomático,140,274,<= 120 mg/dl,Normal,154,Si,2.0,Flat,No
+563,55,Masculino,Asintomático,135,204,> 120 mg/dl,ST,126,Si,1.1,Flat,Si
+564,57,Masculino,Asintomático,144,270,> 120 mg/dl,ST,160,Si,2.0,Flat,Si
+565,61,Masculino,Asintomático,141,292,<= 120 mg/dl,ST,115,Si,1.7,Flat,Si
+566,41,Masculino,Asintomático,150,171,<= 120 mg/dl,Normal,128,Si,1.5,Flat,No
+567,71,Masculino,Asintomático,130,221,<= 120 mg/dl,ST,115,Si,0.0,Flat,Si
+568,38,Masculino,Asintomático,110,289,<= 120 mg/dl,Normal,105,Si,1.5,Down,Si
+569,55,Masculino,Asintomático,158,217,<= 120 mg/dl,Normal,110,Si,2.5,Flat,Si
+570,56,Masculino,Asintomático,128,223,<= 120 mg/dl,ST,119,Si,2.0,Down,Si
+571,69,Masculino,Asintomático,140,110,> 120 mg/dl,Normal,109,Si,1.5,Flat,Si
+572,64,Masculino,Asintomático,150,193,<= 120 mg/dl,ST,135,Si,0.5,Flat,Si
+573,72,Masculino,Asintomático,160,123,> 120 mg/dl,LVH,130,No,1.5,Flat,Si
+574,69,Masculino,Asintomático,142,210,> 120 mg/dl,ST,112,Si,1.5,Flat,Si
+575,56,Masculino,Asintomático,137,282,> 120 mg/dl,Normal,126,Si,1.2,Flat,Si
+576,62,Masculino,Asintomático,139,170,<= 120 mg/dl,ST,120,Si,3.0,Flat,Si
+577,67,Masculino,Asintomático,146,369,<= 120 mg/dl,Normal,110,Si,1.9,Flat,Si
+578,57,Masculino,Asintomático,156,173,<= 120 mg/dl,LVH,119,Si,3.0,Down,Si
+579,69,Masculino,Asintomático,145,289,> 120 mg/dl,ST,110,Si,1.8,Flat,Si
+580,51,Masculino,Asintomático,131,152,> 120 mg/dl,LVH,130,Si,1.0,Flat,Si
+581,48,Masculino,Asintomático,140,208,<= 120 mg/dl,Normal,159,Si,1.5,Up,Si
+582,69,Masculino,Asintomático,122,216,> 120 mg/dl,LVH,84,Si,0.0,Flat,Si
+583,69,Masculino,Dolor no anginoso,142,271,<= 120 mg/dl,LVH,126,No,0.3,Up,No
+584,64,Masculino,Asintomático,141,244,> 120 mg/dl,ST,116,Si,1.5,Flat,Si
+585,57,Masculino,Angina atípica,180,285,> 120 mg/dl,ST,120,No,0.8,Flat,Si
+586,53,Masculino,Asintomático,124,243,<= 120 mg/dl,Normal,122,Si,2.0,Flat,Si
+587,37,Masculino,Dolor no anginoso,118,240,<= 120 mg/dl,LVH,165,No,1.0,Flat,No
+588,67,Masculino,Asintomático,140,219,<= 120 mg/dl,ST,122,Si,2.0,Flat,Si
+589,74,Masculino,Dolor no anginoso,140,237,> 120 mg/dl,Normal,94,No,0.0,Flat,Si
+590,63,Masculino,Angina atípica,136,165,<= 120 mg/dl,ST,133,No,0.2,Up,No
+591,58,Masculino,Asintomático,100,213,<= 120 mg/dl,ST,110,No,0.0,Up,No
+592,61,Masculino,Asintomático,190,287,> 120 mg/dl,LVH,150,Si,2.0,Down,Si
+593,64,Masculino,Asintomático,130,258,> 120 mg/dl,LVH,130,No,0.0,Flat,Si
+594,58,Masculino,Asintomático,160,256,> 120 mg/dl,LVH,113,Si,1.0,Up,Si
+595,60,Masculino,Asintomático,130,186,> 120 mg/dl,LVH,140,Si,0.5,Flat,Si
+596,57,Masculino,Asintomático,122,264,<= 120 mg/dl,LVH,100,No,0.0,Flat,Si
+597,55,Masculino,Dolor no anginoso,133,185,<= 120 mg/dl,ST,136,No,0.2,Up,No
+598,55,Masculino,Asintomático,120,226,<= 120 mg/dl,LVH,127,Si,1.7,Down,Si
+599,56,Masculino,Asintomático,130,203,> 120 mg/dl,Normal,98,No,1.5,Flat,Si
+600,57,Masculino,Asintomático,130,207,<= 120 mg/dl,ST,96,Si,1.0,Flat,No
+601,61,Masculino,Dolor no anginoso,140,284,<= 120 mg/dl,Normal,123,Si,1.3,Flat,Si
+602,61,Masculino,Dolor no anginoso,120,337,<= 120 mg/dl,Normal,98,Si,0.0,Flat,Si
+603,74,Masculino,Asintomático,155,310,<= 120 mg/dl,Normal,112,Si,1.5,Down,Si
+604,68,Masculino,Dolor no anginoso,134,254,> 120 mg/dl,Normal,151,Si,0.0,Up,No
+605,51,Femenino,Asintomático,114,258,> 120 mg/dl,LVH,96,No,1.0,Up,No
+606,62,Masculino,Asintomático,160,254,> 120 mg/dl,ST,108,Si,3.0,Flat,Si
+607,53,Masculino,Asintomático,144,300,> 120 mg/dl,ST,128,Si,1.5,Flat,Si
+608,62,Masculino,Asintomático,158,170,<= 120 mg/dl,ST,138,Si,0.0,Flat,Si
+609,46,Masculino,Asintomático,134,310,<= 120 mg/dl,Normal,126,No,0.0,Flat,Si
+610,54,Femenino,Asintomático,127,333,> 120 mg/dl,ST,154,No,0.0,Flat,Si
+611,62,Masculino,Angina típica,135,139,<= 120 mg/dl,ST,137,No,0.2,Up,No
+612,55,Masculino,Asintomático,122,223,> 120 mg/dl,ST,100,No,0.0,Flat,Si
+613,58,Masculino,Asintomático,140,385,> 120 mg/dl,LVH,135,No,0.3,Up,No
+614,62,Masculino,Angina atípica,120,254,<= 120 mg/dl,LVH,93,Si,0.0,Flat,Si
+615,70,Masculino,Asintomático,130,322,<= 120 mg/dl,LVH,109,No,2.4,Flat,Si
+616,67,Femenino,Dolor no anginoso,115,564,<= 120 mg/dl,LVH,160,No,1.6,Flat,No
+617,57,Masculino,Angina atípica,124,261,<= 120 mg/dl,Normal,141,No,0.3,Up,Si
+618,64,Masculino,Asintomático,128,263,<= 120 mg/dl,Normal,105,Si,0.2,Flat,No
+619,74,Femenino,Angina atípica,120,269,<= 120 mg/dl,LVH,121,Si,0.2,Up,No
+620,65,Masculino,Asintomático,120,177,<= 120 mg/dl,Normal,140,No,0.4,Up,No
+621,56,Masculino,Dolor no anginoso,130,256,> 120 mg/dl,LVH,142,Si,0.6,Flat,Si
+622,59,Masculino,Asintomático,110,239,<= 120 mg/dl,LVH,142,Si,1.2,Flat,Si
+623,60,Masculino,Asintomático,140,293,<= 120 mg/dl,LVH,170,No,1.2,Flat,Si
+624,63,Femenino,Asintomático,150,407,<= 120 mg/dl,LVH,154,No,4.0,Flat,Si
+625,59,Masculino,Asintomático,135,234,<= 120 mg/dl,Normal,161,No,0.5,Flat,No
+626,53,Masculino,Asintomático,142,226,<= 120 mg/dl,LVH,111,Si,0.0,Up,No
+627,44,Masculino,Dolor no anginoso,140,235,<= 120 mg/dl,LVH,180,No,0.0,Up,No
+628,61,Masculino,Angina típica,134,234,<= 120 mg/dl,Normal,145,No,2.6,Flat,Si
+629,57,Femenino,Asintomático,128,303,<= 120 mg/dl,LVH,159,No,0.0,Up,No
+630,71,Femenino,Asintomático,112,149,<= 120 mg/dl,Normal,125,No,1.6,Flat,No
+631,46,Masculino,Asintomático,140,311,<= 120 mg/dl,Normal,120,Si,1.8,Flat,Si
+632,53,Masculino,Asintomático,140,203,> 120 mg/dl,LVH,155,Si,3.1,Down,Si
+633,64,Masculino,Angina típica,110,211,<= 120 mg/dl,LVH,144,Si,1.8,Flat,No
+634,40,Masculino,Angina típica,140,199,<= 120 mg/dl,Normal,178,Si,1.4,Up,No
+635,67,Masculino,Asintomático,120,229,<= 120 mg/dl,LVH,129,Si,2.6,Flat,Si
+636,48,Masculino,Angina atípica,130,245,<= 120 mg/dl,LVH,180,No,0.2,Flat,No
+637,43,Masculino,Asintomático,115,303,<= 120 mg/dl,Normal,181,No,1.2,Flat,No
+638,47,Masculino,Asintomático,112,204,<= 120 mg/dl,Normal,143,No,0.1,Up,No
+639,54,Femenino,Angina atípica,132,288,> 120 mg/dl,LVH,159,Si,0.0,Up,No
+640,48,Femenino,Dolor no anginoso,130,275,<= 120 mg/dl,Normal,139,No,0.2,Up,No
+641,46,Femenino,Asintomático,138,243,<= 120 mg/dl,LVH,152,Si,0.0,Flat,No
+642,51,Femenino,Dolor no anginoso,120,295,<= 120 mg/dl,LVH,157,No,0.6,Up,No
+643,58,Masculino,Dolor no anginoso,112,230,<= 120 mg/dl,LVH,165,No,2.5,Flat,Si
+644,71,Femenino,Dolor no anginoso,110,265,> 120 mg/dl,LVH,130,No,0.0,Up,No
+645,57,Masculino,Dolor no anginoso,128,229,<= 120 mg/dl,LVH,150,No,0.4,Flat,Si
+646,66,Masculino,Asintomático,160,228,<= 120 mg/dl,LVH,138,No,2.3,Up,No
+647,37,Femenino,Dolor no anginoso,120,215,<= 120 mg/dl,Normal,170,No,0.0,Up,No
+648,59,Masculino,Asintomático,170,326,<= 120 mg/dl,LVH,140,Si,3.4,Down,Si
+649,50,Masculino,Asintomático,144,200,<= 120 mg/dl,LVH,126,Si,0.9,Flat,Si
+650,48,Masculino,Asintomático,130,256,> 120 mg/dl,LVH,150,Si,0.0,Up,Si
+651,61,Masculino,Asintomático,140,207,<= 120 mg/dl,LVH,138,Si,1.9,Up,Si
+652,59,Masculino,Angina típica,160,273,<= 120 mg/dl,LVH,125,No,0.0,Up,Si
+653,42,Masculino,Dolor no anginoso,130,180,<= 120 mg/dl,Normal,150,No,0.0,Up,No
+654,48,Masculino,Asintomático,122,222,<= 120 mg/dl,LVH,186,No,0.0,Up,No
+655,40,Masculino,Asintomático,152,223,<= 120 mg/dl,Normal,181,No,0.0,Up,Si
+656,62,Femenino,Asintomático,124,209,<= 120 mg/dl,Normal,163,No,0.0,Up,No
+657,44,Masculino,Dolor no anginoso,130,233,<= 120 mg/dl,Normal,179,Si,0.4,Up,No
+658,46,Masculino,Angina atípica,101,197,> 120 mg/dl,Normal,156,No,0.0,Up,No
+659,59,Masculino,Dolor no anginoso,126,218,> 120 mg/dl,Normal,134,No,2.2,Flat,Si
+660,58,Masculino,Dolor no anginoso,140,211,> 120 mg/dl,LVH,165,No,0.0,Up,No
+661,49,Masculino,Dolor no anginoso,118,149,<= 120 mg/dl,LVH,126,No,0.8,Up,Si
+662,44,Masculino,Asintomático,110,197,<= 120 mg/dl,LVH,177,No,0.0,Up,Si
+663,66,Masculino,Angina atípica,160,246,<= 120 mg/dl,Normal,120,Si,0.0,Flat,Si
+664,65,Femenino,Asintomático,150,225,<= 120 mg/dl,LVH,114,No,1.0,Flat,Si
+665,42,Masculino,Asintomático,136,315,<= 120 mg/dl,Normal,125,Si,1.8,Flat,Si
+666,52,Masculino,Angina atípica,128,205,> 120 mg/dl,Normal,184,No,0.0,Up,No
+667,65,Femenino,Dolor no anginoso,140,417,> 120 mg/dl,LVH,157,No,0.8,Up,No
+668,63,Femenino,Angina atípica,140,195,<= 120 mg/dl,Normal,179,No,0.0,Up,No
+669,45,Femenino,Angina atípica,130,234,<= 120 mg/dl,LVH,175,No,0.6,Flat,No
+670,41,Femenino,Angina atípica,105,198,<= 120 mg/dl,Normal,168,No,0.0,Up,No
+671,61,Masculino,Asintomático,138,166,<= 120 mg/dl,LVH,125,Si,3.6,Flat,Si
+672,60,Femenino,Dolor no anginoso,120,178,> 120 mg/dl,Normal,96,No,0.0,Up,No
+673,59,Femenino,Asintomático,174,249,<= 120 mg/dl,Normal,143,Si,0.0,Flat,Si
+674,62,Masculino,Angina atípica,120,281,<= 120 mg/dl,LVH,103,No,1.4,Flat,Si
+675,57,Masculino,Dolor no anginoso,150,126,> 120 mg/dl,Normal,173,No,0.2,Up,No
+676,51,Femenino,Asintomático,130,305,<= 120 mg/dl,Normal,142,Si,1.2,Flat,Si
+677,44,Masculino,Dolor no anginoso,120,226,<= 120 mg/dl,Normal,169,No,0.0,Up,No
+678,60,Femenino,Angina típica,150,240,<= 120 mg/dl,Normal,171,No,0.9,Up,No
+679,63,Masculino,Angina típica,145,233,> 120 mg/dl,LVH,150,No,2.3,Down,No
+680,57,Masculino,Asintomático,150,276,<= 120 mg/dl,LVH,112,Si,0.6,Flat,Si
+681,51,Masculino,Asintomático,140,261,<= 120 mg/dl,LVH,186,Si,0.0,Up,No
+682,58,Femenino,Angina atípica,136,319,> 120 mg/dl,LVH,152,No,0.0,Up,Si
+683,44,Femenino,Dolor no anginoso,118,242,<= 120 mg/dl,Normal,149,No,0.3,Flat,No
+684,47,Masculino,Dolor no anginoso,108,243,<= 120 mg/dl,Normal,152,No,0.0,Up,Si
+685,61,Masculino,Asintomático,120,260,<= 120 mg/dl,Normal,140,Si,3.6,Flat,Si
+686,57,Femenino,Asintomático,120,354,<= 120 mg/dl,Normal,163,Si,0.6,Up,No
+687,70,Masculino,Angina atípica,156,245,<= 120 mg/dl,LVH,143,No,0.0,Up,No
+688,76,Femenino,Dolor no anginoso,140,197,<= 120 mg/dl,ST,116,No,1.1,Flat,No
+689,67,Femenino,Asintomático,106,223,<= 120 mg/dl,Normal,142,No,0.3,Up,No
+690,45,Masculino,Asintomático,142,309,<= 120 mg/dl,LVH,147,Si,0.0,Flat,Si
+691,45,Masculino,Asintomático,104,208,<= 120 mg/dl,LVH,148,Si,3.0,Flat,No
+692,39,Femenino,Dolor no anginoso,94,199,<= 120 mg/dl,Normal,179,No,0.0,Up,No
+693,42,Femenino,Dolor no anginoso,120,209,<= 120 mg/dl,Normal,173,No,0.0,Flat,No
+694,56,Masculino,Angina atípica,120,236,<= 120 mg/dl,Normal,178,No,0.8,Up,No
+695,58,Masculino,Asintomático,146,218,<= 120 mg/dl,Normal,105,No,2.0,Flat,Si
+696,35,Masculino,Asintomático,120,198,<= 120 mg/dl,Normal,130,Si,1.6,Flat,Si
+697,58,Masculino,Asintomático,150,270,<= 120 mg/dl,LVH,111,Si,0.8,Up,Si
+698,41,Masculino,Dolor no anginoso,130,214,<= 120 mg/dl,LVH,168,No,2.0,Flat,No
+699,57,Masculino,Asintomático,110,201,<= 120 mg/dl,Normal,126,Si,1.5,Flat,No
+700,42,Masculino,Angina típica,148,244,<= 120 mg/dl,LVH,178,No,0.8,Up,No
+701,62,Masculino,Angina atípica,128,208,> 120 mg/dl,LVH,140,No,0.0,Up,No
+702,59,Masculino,Angina típica,178,270,<= 120 mg/dl,LVH,145,No,4.2,Down,No
+703,41,Femenino,Angina atípica,126,306,<= 120 mg/dl,Normal,163,No,0.0,Up,No
+704,50,Masculino,Asintomático,150,243,<= 120 mg/dl,LVH,128,No,2.6,Flat,Si
+705,59,Masculino,Angina atípica,140,221,<= 120 mg/dl,Normal,164,Si,0.0,Up,No
+706,61,Femenino,Asintomático,130,330,<= 120 mg/dl,LVH,169,No,0.0,Up,Si
+707,54,Masculino,Asintomático,124,266,<= 120 mg/dl,LVH,109,Si,2.2,Flat,Si
+708,54,Masculino,Asintomático,110,206,<= 120 mg/dl,LVH,108,Si,0.0,Flat,Si
+709,52,Masculino,Asintomático,125,212,<= 120 mg/dl,Normal,168,No,1.0,Up,Si
+710,47,Masculino,Asintomático,110,275,<= 120 mg/dl,LVH,118,Si,1.0,Flat,Si
+711,66,Masculino,Asintomático,120,302,<= 120 mg/dl,LVH,151,No,0.4,Flat,No
+712,58,Masculino,Asintomático,100,234,<= 120 mg/dl,Normal,156,No,0.1,Up,Si
+713,64,Femenino,Dolor no anginoso,140,313,<= 120 mg/dl,Normal,133,No,0.2,Up,No
+714,50,Femenino,Angina atípica,120,244,<= 120 mg/dl,Normal,162,No,1.1,Up,No
+715,44,Femenino,Dolor no anginoso,108,141,<= 120 mg/dl,Normal,175,No,0.6,Flat,No
+716,67,Masculino,Asintomático,120,237,<= 120 mg/dl,Normal,71,No,1.0,Flat,Si
+717,49,Femenino,Asintomático,130,269,<= 120 mg/dl,Normal,163,No,0.0,Up,No
+718,57,Masculino,Asintomático,165,289,> 120 mg/dl,LVH,124,No,1.0,Flat,Si
+719,63,Masculino,Asintomático,130,254,<= 120 mg/dl,LVH,147,No,1.4,Flat,Si
+720,48,Masculino,Asintomático,124,274,<= 120 mg/dl,LVH,166,No,0.5,Flat,Si
+721,51,Masculino,Dolor no anginoso,100,222,<= 120 mg/dl,Normal,143,Si,1.2,Flat,No
+722,60,Femenino,Asintomático,150,258,<= 120 mg/dl,LVH,157,No,2.6,Flat,Si
+723,59,Masculino,Asintomático,140,177,<= 120 mg/dl,Normal,162,Si,0.0,Up,Si
+724,45,Femenino,Angina atípica,112,160,<= 120 mg/dl,Normal,138,No,0.0,Flat,No
+725,55,Femenino,Asintomático,180,327,<= 120 mg/dl,ST,117,Si,3.4,Flat,Si
+726,41,Masculino,Angina atípica,110,235,<= 120 mg/dl,Normal,153,No,0.0,Up,No
+727,60,Femenino,Asintomático,158,305,<= 120 mg/dl,LVH,161,No,0.0,Up,Si
+728,54,Femenino,Dolor no anginoso,135,304,> 120 mg/dl,Normal,170,No,0.0,Up,No
+729,42,Masculino,Angina atípica,120,295,<= 120 mg/dl,Normal,162,No,0.0,Up,No
+730,49,Femenino,Angina atípica,134,271,<= 120 mg/dl,Normal,162,No,0.0,Flat,No
+731,46,Masculino,Asintomático,120,249,<= 120 mg/dl,LVH,144,No,0.8,Up,Si
+732,56,Femenino,Asintomático,200,288,> 120 mg/dl,LVH,133,Si,4.0,Down,Si
+733,66,Femenino,Angina típica,150,226,<= 120 mg/dl,Normal,114,No,2.6,Down,No
+734,56,Masculino,Asintomático,130,283,> 120 mg/dl,LVH,103,Si,1.6,Down,Si
+735,49,Masculino,Dolor no anginoso,120,188,<= 120 mg/dl,Normal,139,No,2.0,Flat,Si
+736,54,Masculino,Asintomático,122,286,<= 120 mg/dl,LVH,116,Si,3.2,Flat,Si
+737,57,Masculino,Asintomático,152,274,<= 120 mg/dl,Normal,88,Si,1.2,Flat,Si
+738,65,Femenino,Dolor no anginoso,160,360,<= 120 mg/dl,LVH,151,No,0.8,Up,No
+739,54,Masculino,Dolor no anginoso,125,273,<= 120 mg/dl,LVH,152,No,0.5,Down,No
+740,54,Femenino,Dolor no anginoso,160,201,<= 120 mg/dl,Normal,163,No,0.0,Up,No
+741,62,Masculino,Asintomático,120,267,<= 120 mg/dl,Normal,99,Si,1.8,Flat,Si
+742,52,Femenino,Dolor no anginoso,136,196,<= 120 mg/dl,LVH,169,No,0.1,Flat,No
+743,52,Masculino,Angina atípica,134,201,<= 120 mg/dl,Normal,158,No,0.8,Up,No
+744,60,Masculino,Asintomático,117,230,> 120 mg/dl,Normal,160,Si,1.4,Up,Si
+745,63,Femenino,Asintomático,108,269,<= 120 mg/dl,Normal,169,Si,1.8,Flat,Si
+746,66,Masculino,Asintomático,112,212,<= 120 mg/dl,LVH,132,Si,0.1,Up,Si
+747,42,Masculino,Asintomático,140,226,<= 120 mg/dl,Normal,178,No,0.0,Up,No
+748,64,Masculino,Asintomático,120,246,<= 120 mg/dl,LVH,96,Si,2.2,Down,Si
+749,54,Masculino,Dolor no anginoso,150,232,<= 120 mg/dl,LVH,165,No,1.6,Up,No
+750,46,Femenino,Dolor no anginoso,142,177,<= 120 mg/dl,LVH,160,Si,1.4,Down,No
+751,67,Femenino,Dolor no anginoso,152,277,<= 120 mg/dl,Normal,172,No,0.0,Up,No
+752,56,Masculino,Asintomático,125,249,> 120 mg/dl,LVH,144,Si,1.2,Flat,Si
+753,34,Femenino,Angina atípica,118,210,<= 120 mg/dl,Normal,192,No,0.7,Up,No
+754,57,Masculino,Asintomático,132,207,<= 120 mg/dl,Normal,168,Si,0.0,Up,No
+755,64,Masculino,Asintomático,145,212,<= 120 mg/dl,LVH,132,No,2.0,Flat,Si
+756,59,Masculino,Asintomático,138,271,<= 120 mg/dl,LVH,182,No,0.0,Up,No
+757,50,Masculino,Dolor no anginoso,140,233,<= 120 mg/dl,Normal,163,No,0.6,Flat,Si
+758,51,Masculino,Angina típica,125,213,<= 120 mg/dl,LVH,125,Si,1.4,Up,No
+759,54,Masculino,Angina atípica,192,283,<= 120 mg/dl,LVH,195,No,0.0,Up,Si
+760,53,Masculino,Asintomático,123,282,<= 120 mg/dl,Normal,95,Si,2.0,Flat,Si
+761,52,Masculino,Asintomático,112,230,<= 120 mg/dl,Normal,160,No,0.0,Up,Si
+762,40,Masculino,Asintomático,110,167,<= 120 mg/dl,LVH,114,Si,2.0,Flat,Si
+763,58,Masculino,Dolor no anginoso,132,224,<= 120 mg/dl,LVH,173,No,3.2,Up,Si
+764,41,Femenino,Dolor no anginoso,112,268,<= 120 mg/dl,LVH,172,Si,0.0,Up,No
+765,41,Masculino,Dolor no anginoso,112,250,<= 120 mg/dl,Normal,179,No,0.0,Up,No
+766,50,Femenino,Dolor no anginoso,120,219,<= 120 mg/dl,Normal,158,No,1.6,Flat,No
+767,54,Femenino,Dolor no anginoso,108,267,<= 120 mg/dl,LVH,167,No,0.0,Up,No
+768,64,Femenino,Asintomático,130,303,<= 120 mg/dl,Normal,122,No,2.0,Flat,No
+769,51,Femenino,Dolor no anginoso,130,256,<= 120 mg/dl,LVH,149,No,0.5,Up,No
+770,46,Femenino,Angina atípica,105,204,<= 120 mg/dl,Normal,172,No,0.0,Up,No
+771,55,Masculino,Asintomático,140,217,<= 120 mg/dl,Normal,111,Si,5.6,Down,Si
+772,45,Masculino,Angina atípica,128,308,<= 120 mg/dl,LVH,170,No,0.0,Up,No
+773,56,Masculino,Angina típica,120,193,<= 120 mg/dl,LVH,162,No,1.9,Flat,No
+774,66,Femenino,Asintomático,178,228,> 120 mg/dl,Normal,165,Si,1.0,Flat,Si
+775,38,Masculino,Angina típica,120,231,<= 120 mg/dl,Normal,182,Si,3.8,Flat,Si
+776,62,Femenino,Asintomático,150,244,<= 120 mg/dl,Normal,154,Si,1.4,Flat,Si
+777,55,Masculino,Angina atípica,130,262,<= 120 mg/dl,Normal,155,No,0.0,Up,No
+778,58,Masculino,Asintomático,128,259,<= 120 mg/dl,LVH,130,Si,3.0,Flat,Si
+779,43,Masculino,Asintomático,110,211,<= 120 mg/dl,Normal,161,No,0.0,Up,No
+780,64,Femenino,Asintomático,180,325,<= 120 mg/dl,Normal,154,Si,0.0,Up,No
+781,50,Femenino,Asintomático,110,254,<= 120 mg/dl,LVH,159,No,0.0,Up,No
+782,53,Masculino,Dolor no anginoso,130,197,> 120 mg/dl,LVH,152,No,1.2,Down,No
+783,45,Femenino,Asintomático,138,236,<= 120 mg/dl,LVH,152,Si,0.2,Flat,No
+784,65,Masculino,Angina típica,138,282,> 120 mg/dl,LVH,174,No,1.4,Flat,Si
+785,69,Masculino,Angina típica,160,234,> 120 mg/dl,LVH,131,No,0.1,Flat,No
+786,69,Masculino,Dolor no anginoso,140,254,<= 120 mg/dl,LVH,146,No,2.0,Flat,Si
+787,67,Masculino,Asintomático,100,299,<= 120 mg/dl,LVH,125,Si,0.9,Flat,Si
+788,68,Femenino,Dolor no anginoso,120,211,<= 120 mg/dl,LVH,115,No,1.5,Flat,No
+789,34,Masculino,Angina típica,118,182,<= 120 mg/dl,LVH,174,No,0.0,Up,No
+790,62,Femenino,Asintomático,138,294,> 120 mg/dl,Normal,106,No,1.9,Flat,Si
+791,51,Masculino,Asintomático,140,298,<= 120 mg/dl,Normal,122,Si,4.2,Flat,Si
+792,46,Masculino,Dolor no anginoso,150,231,<= 120 mg/dl,Normal,147,No,3.6,Flat,Si
+793,67,Masculino,Asintomático,125,254,> 120 mg/dl,Normal,163,No,0.2,Flat,Si
+794,50,Masculino,Dolor no anginoso,129,196,<= 120 mg/dl,Normal,163,No,0.0,Up,No
+795,42,Masculino,Dolor no anginoso,120,240,> 120 mg/dl,Normal,194,No,0.8,Down,No
+796,56,Femenino,Asintomático,134,409,<= 120 mg/dl,LVH,150,Si,1.9,Flat,Si
+797,41,Masculino,Asintomático,110,172,<= 120 mg/dl,LVH,158,No,0.0,Up,Si
+798,42,Femenino,Asintomático,102,265,<= 120 mg/dl,LVH,122,No,0.6,Flat,No
+799,53,Masculino,Dolor no anginoso,130,246,> 120 mg/dl,LVH,173,No,0.0,Up,No
+800,43,Masculino,Dolor no anginoso,130,315,<= 120 mg/dl,Normal,162,No,1.9,Up,No
+801,56,Masculino,Asintomático,132,184,<= 120 mg/dl,LVH,105,Si,2.1,Flat,Si
+802,52,Masculino,Asintomático,108,233,> 120 mg/dl,Normal,147,No,0.1,Up,No
+803,62,Femenino,Asintomático,140,394,<= 120 mg/dl,LVH,157,No,1.2,Flat,No
+804,70,Masculino,Dolor no anginoso,160,269,<= 120 mg/dl,Normal,112,Si,2.9,Flat,Si
+805,54,Masculino,Asintomático,140,239,<= 120 mg/dl,Normal,160,No,1.2,Up,No
+806,70,Masculino,Asintomático,145,174,<= 120 mg/dl,Normal,125,Si,2.6,Down,Si
+807,54,Masculino,Angina atípica,108,309,<= 120 mg/dl,Normal,156,No,0.0,Up,No
+808,35,Masculino,Asintomático,126,282,<= 120 mg/dl,LVH,156,Si,0.0,Up,Si
+809,48,Masculino,Dolor no anginoso,124,255,> 120 mg/dl,Normal,175,No,0.0,Up,No
+810,55,Femenino,Angina atípica,135,250,<= 120 mg/dl,LVH,161,No,1.4,Flat,No
+811,58,Femenino,Asintomático,100,248,<= 120 mg/dl,LVH,122,No,1.0,Flat,No
+812,54,Femenino,Dolor no anginoso,110,214,<= 120 mg/dl,Normal,158,No,1.6,Flat,No
+813,69,Femenino,Angina típica,140,239,<= 120 mg/dl,Normal,151,No,1.8,Up,No
+814,77,Masculino,Asintomático,125,304,<= 120 mg/dl,LVH,162,Si,0.0,Up,Si
+815,68,Masculino,Dolor no anginoso,118,277,<= 120 mg/dl,Normal,151,No,1.0,Up,No
+816,58,Masculino,Asintomático,125,300,<= 120 mg/dl,LVH,171,No,0.0,Up,Si
+817,60,Masculino,Asintomático,125,258,<= 120 mg/dl,LVH,141,Si,2.8,Flat,Si
+818,51,Masculino,Asintomático,140,299,<= 120 mg/dl,Normal,173,Si,1.6,Up,Si
+819,55,Masculino,Asintomático,160,289,<= 120 mg/dl,LVH,145,Si,0.8,Flat,Si
+820,52,Masculino,Angina típica,152,298,> 120 mg/dl,Normal,178,No,1.2,Flat,No
+821,60,Femenino,Dolor no anginoso,102,318,<= 120 mg/dl,Normal,160,No,0.0,Up,No
+822,58,Masculino,Dolor no anginoso,105,240,<= 120 mg/dl,LVH,154,Si,0.6,Flat,No
+823,64,Masculino,Dolor no anginoso,125,309,<= 120 mg/dl,Normal,131,Si,1.8,Flat,Si
+824,37,Masculino,Dolor no anginoso,130,250,<= 120 mg/dl,Normal,187,No,3.5,Down,No
+825,59,Masculino,Angina típica,170,288,<= 120 mg/dl,LVH,159,No,0.2,Flat,Si
+826,51,Masculino,Dolor no anginoso,125,245,> 120 mg/dl,LVH,166,No,2.4,Flat,No
+827,43,Femenino,Dolor no anginoso,122,213,<= 120 mg/dl,Normal,165,No,0.2,Flat,No
+828,58,Masculino,Asintomático,128,216,<= 120 mg/dl,LVH,131,Si,2.2,Flat,Si
+829,29,Masculino,Angina atípica,130,204,<= 120 mg/dl,LVH,202,No,0.0,Up,No
+830,41,Femenino,Angina atípica,130,204,<= 120 mg/dl,LVH,172,No,1.4,Up,No
+831,63,Femenino,Dolor no anginoso,135,252,<= 120 mg/dl,LVH,172,No,0.0,Up,No
+832,51,Masculino,Dolor no anginoso,94,227,<= 120 mg/dl,Normal,154,Si,0.0,Up,No
+833,54,Masculino,Dolor no anginoso,120,258,<= 120 mg/dl,LVH,147,No,0.4,Flat,No
+834,44,Masculino,Angina atípica,120,220,<= 120 mg/dl,Normal,170,No,0.0,Up,No
+835,54,Masculino,Asintomático,110,239,<= 120 mg/dl,Normal,126,Si,2.8,Flat,Si
+836,65,Masculino,Asintomático,135,254,<= 120 mg/dl,LVH,127,No,2.8,Flat,Si
+837,57,Masculino,Dolor no anginoso,150,168,<= 120 mg/dl,Normal,174,No,1.6,Up,No
+838,63,Masculino,Asintomático,130,330,> 120 mg/dl,LVH,132,Si,1.8,Up,Si
+839,35,Femenino,Asintomático,138,183,<= 120 mg/dl,Normal,182,No,1.4,Up,No
+840,41,Masculino,Angina atípica,135,203,<= 120 mg/dl,Normal,132,No,0.0,Flat,No
+841,62,Femenino,Dolor no anginoso,130,263,<= 120 mg/dl,Normal,97,No,1.2,Flat,Si
+842,43,Femenino,Asintomático,132,341,> 120 mg/dl,LVH,136,Si,3.0,Flat,Si
+843,58,Femenino,Angina típica,150,283,> 120 mg/dl,LVH,162,No,1.0,Up,No
+844,52,Masculino,Angina típica,118,186,<= 120 mg/dl,LVH,190,No,0.0,Flat,No
+845,61,Femenino,Asintomático,145,307,<= 120 mg/dl,LVH,146,Si,1.0,Flat,Si
+846,39,Masculino,Asintomático,118,219,<= 120 mg/dl,Normal,140,No,1.2,Flat,Si
+847,45,Masculino,Asintomático,115,260,<= 120 mg/dl,LVH,185,No,0.0,Up,No
+848,52,Masculino,Asintomático,128,255,<= 120 mg/dl,Normal,161,Si,0.0,Up,Si
+849,62,Masculino,Dolor no anginoso,130,231,<= 120 mg/dl,Normal,146,No,1.8,Flat,No
+850,62,Femenino,Asintomático,160,164,<= 120 mg/dl,LVH,145,No,6.2,Down,Si
+851,53,Femenino,Asintomático,138,234,<= 120 mg/dl,LVH,160,No,0.0,Up,No
+852,43,Masculino,Asintomático,120,177,<= 120 mg/dl,LVH,120,Si,2.5,Flat,Si
+853,47,Masculino,Dolor no anginoso,138,257,<= 120 mg/dl,LVH,156,No,0.0,Up,No
+854,52,Masculino,Angina atípica,120,325,<= 120 mg/dl,Normal,172,No,0.2,Up,No
+855,68,Masculino,Dolor no anginoso,180,274,> 120 mg/dl,LVH,150,Si,1.6,Flat,Si
+856,39,Masculino,Dolor no anginoso,140,321,<= 120 mg/dl,LVH,182,No,0.0,Up,No
+857,53,Femenino,Asintomático,130,264,<= 120 mg/dl,LVH,143,No,0.4,Flat,No
+858,62,Femenino,Asintomático,140,268,<= 120 mg/dl,LVH,160,No,3.6,Down,Si
+859,51,Femenino,Dolor no anginoso,140,308,<= 120 mg/dl,LVH,142,No,1.5,Up,No
+860,60,Masculino,Asintomático,130,253,<= 120 mg/dl,Normal,144,Si,1.4,Up,Si
+861,65,Masculino,Asintomático,110,248,<= 120 mg/dl,LVH,158,No,0.6,Up,Si
+862,65,Femenino,Dolor no anginoso,155,269,<= 120 mg/dl,Normal,148,No,0.8,Up,No
+863,60,Masculino,Dolor no anginoso,140,185,<= 120 mg/dl,LVH,155,No,3.0,Flat,Si
+864,60,Masculino,Asintomático,145,282,<= 120 mg/dl,LVH,142,Si,2.8,Flat,Si
+865,54,Masculino,Asintomático,120,188,<= 120 mg/dl,Normal,113,No,1.4,Flat,Si
+866,44,Masculino,Angina atípica,130,219,<= 120 mg/dl,LVH,188,No,0.0,Up,No
+867,44,Masculino,Asintomático,112,290,<= 120 mg/dl,LVH,153,No,0.0,Up,Si
+868,51,Masculino,Dolor no anginoso,110,175,<= 120 mg/dl,Normal,123,No,0.6,Up,No
+869,59,Masculino,Dolor no anginoso,150,212,> 120 mg/dl,Normal,157,No,1.6,Up,No
+870,71,Femenino,Angina atípica,160,302,<= 120 mg/dl,Normal,162,No,0.4,Up,No
+871,61,Masculino,Dolor no anginoso,150,243,> 120 mg/dl,Normal,137,Si,1.0,Flat,No
+872,55,Masculino,Asintomático,132,353,<= 120 mg/dl,Normal,132,Si,1.2,Flat,Si
+873,64,Masculino,Dolor no anginoso,140,335,<= 120 mg/dl,Normal,158,No,0.0,Up,Si
+874,43,Masculino,Asintomático,150,247,<= 120 mg/dl,Normal,171,No,1.5,Up,No
+875,58,Femenino,Dolor no anginoso,120,340,<= 120 mg/dl,Normal,172,No,0.0,Up,No
+876,60,Masculino,Asintomático,130,206,<= 120 mg/dl,LVH,132,Si,2.4,Flat,Si
+877,58,Masculino,Angina atípica,120,284,<= 120 mg/dl,LVH,160,No,1.8,Flat,Si
+878,49,Masculino,Angina atípica,130,266,<= 120 mg/dl,Normal,171,No,0.6,Up,No
+879,48,Masculino,Angina atípica,110,229,<= 120 mg/dl,Normal,168,No,1.0,Down,Si
+880,52,Masculino,Dolor no anginoso,172,199,> 120 mg/dl,Normal,162,No,0.5,Up,No
+881,44,Masculino,Angina atípica,120,263,<= 120 mg/dl,Normal,173,No,0.0,Up,No
+882,56,Femenino,Angina atípica,140,294,<= 120 mg/dl,LVH,153,No,1.3,Flat,No
+883,57,Masculino,Asintomático,140,192,<= 120 mg/dl,Normal,148,No,0.4,Flat,No
+884,67,Masculino,Asintomático,160,286,<= 120 mg/dl,LVH,108,Si,1.5,Flat,Si
+885,53,Femenino,Dolor no anginoso,128,216,<= 120 mg/dl,LVH,115,No,0.0,Up,No
+886,52,Masculino,Dolor no anginoso,138,223,<= 120 mg/dl,Normal,169,No,0.0,Up,No
+887,43,Masculino,Asintomático,132,247,> 120 mg/dl,LVH,143,Si,0.1,Flat,Si
+888,52,Masculino,Asintomático,128,204,> 120 mg/dl,Normal,156,Si,1.0,Flat,Si
+889,59,Masculino,Angina típica,134,204,<= 120 mg/dl,Normal,162,No,0.8,Up,Si
+890,64,Masculino,Angina típica,170,227,<= 120 mg/dl,LVH,155,No,0.6,Flat,No
+891,66,Femenino,Dolor no anginoso,146,278,<= 120 mg/dl,LVH,152,No,0.0,Flat,No
+892,39,Femenino,Dolor no anginoso,138,220,<= 120 mg/dl,Normal,152,No,0.0,Flat,No
+893,57,Masculino,Angina atípica,154,232,<= 120 mg/dl,LVH,164,No,0.0,Up,Si
+894,58,Femenino,Asintomático,130,197,<= 120 mg/dl,Normal,131,No,0.6,Flat,No
+895,57,Masculino,Asintomático,110,335,<= 120 mg/dl,Normal,143,Si,3.0,Flat,Si
+896,47,Masculino,Dolor no anginoso,130,253,<= 120 mg/dl,Normal,179,No,0.0,Up,No
+897,55,Femenino,Asintomático,128,205,<= 120 mg/dl,ST,130,Si,2.0,Flat,Si
+898,35,Masculino,Angina atípica,122,192,<= 120 mg/dl,Normal,174,No,0.0,Up,No
+899,61,Masculino,Asintomático,148,203,<= 120 mg/dl,Normal,161,No,0.0,Up,Si
+900,58,Masculino,Asintomático,114,318,<= 120 mg/dl,ST,140,No,4.4,Down,Si
+901,58,Femenino,Asintomático,170,225,> 120 mg/dl,LVH,146,Si,2.8,Flat,Si
+902,58,Masculino,Angina atípica,125,220,<= 120 mg/dl,Normal,144,No,0.4,Flat,No
+903,56,Masculino,Angina atípica,130,221,<= 120 mg/dl,LVH,163,No,0.0,Up,No
+904,56,Masculino,Angina atípica,120,240,<= 120 mg/dl,Normal,169,No,0.0,Down,No
+905,67,Masculino,Dolor no anginoso,152,212,<= 120 mg/dl,LVH,150,No,0.8,Flat,Si
+906,55,Femenino,Angina atípica,132,342,<= 120 mg/dl,Normal,166,No,1.2,Up,No
+907,44,Masculino,Asintomático,120,169,<= 120 mg/dl,Normal,144,Si,2.8,Down,Si
+908,63,Masculino,Asintomático,140,187,<= 120 mg/dl,LVH,144,Si,4.0,Up,Si
+909,63,Femenino,Asintomático,124,197,<= 120 mg/dl,Normal,136,Si,0.0,Flat,Si
+910,41,Masculino,Angina atípica,120,157,<= 120 mg/dl,Normal,182,No,0.0,Up,No
+911,59,Masculino,Asintomático,164,176,> 120 mg/dl,LVH,90,No,1.0,Flat,Si
+912,57,Femenino,Asintomático,140,241,<= 120 mg/dl,Normal,123,Si,0.2,Flat,Si
+913,45,Masculino,Angina típica,110,264,<= 120 mg/dl,Normal,132,No,1.2,Flat,Si
+914,68,Masculino,Asintomático,144,193,> 120 mg/dl,Normal,141,No,3.4,Flat,Si
+915,57,Masculino,Asintomático,130,131,<= 120 mg/dl,Normal,115,Si,1.2,Flat,Si
+916,57,Femenino,Angina atípica,130,236,<= 120 mg/dl,LVH,174,No,0.0,Flat,Si
+917,38,Masculino,Dolor no anginoso,138,175,<= 120 mg/dl,Normal,173,No,0.0,Up,No
