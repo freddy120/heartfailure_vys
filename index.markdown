@@ -22,11 +22,11 @@ Elaborado por:
 ### Fuentes de datos:
 El tema de nuestro proyecto es analizar e identificar los factores más importantes que pueden producir un problema cardiaco, para ello contamos con 3 fuentes de datos.
 * Causas de muerte de colombia en 2019. 
-  * Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. https://www.who.int/data/gho/data/themes/mortality-and-global-health-estimates/ghe-leading-causes-of-death
+  * Global Health Estimates 2020: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2019. Geneva, World Health Organization; 2020. [https://www.who.int/data/gho/data/themes/mortality-and-global-health-estimates/ghe-leading-causes-of-death](https://www.who.int/data/gho/data/themes/mortality-and-global-health-estimates/ghe-leading-causes-of-death)
 * Datos de predicción de insuficiencia cardíaca: Aquí tenemos 918 observaciones de pacientes con 11 variables de interés. 
-  * fedesoriano. (September 2021). Heart Failure Prediction Dataset. Retrieved [Date Retrieved] from https://www.kaggle.com/fedesoriano/heart-failure-prediction. 
+  * fedesoriano. (September 2021). Heart Failure Prediction Dataset. Retrieved [Date Retrieved] from [https://www.kaggle.com/fedesoriano/heart-failure-prediction](https://www.kaggle.com/fedesoriano/heart-failure-prediction). 
 * Datos de enfermedad cardiovascular: Aquí tenemos 70000 observaciones de pacientes con 11 variables de interés relativamente diferentes al dataset anterior y que nos permiten aumentar el análisis. 
-  * https://www.kaggle.com/fedesoriano/heart-failure-prediction
+  * [https://www.kaggle.com/fedesoriano/heart-failure-prediction](https://www.kaggle.com/fedesoriano/heart-failure-prediction)
 
 
 
@@ -72,7 +72,10 @@ Luego de aplicar la limpieza, minado y filtrado de los datos nos quedamos con la
 
 ### Modelado
 
-* Se descarga la basa de datos en formato csv del enlace.
+* Se descargan las bases de datos en formato csv o excel, a la fecha se utilizaron los siguientes:
+  * Datos de predicción de insuficiencia cardíaca: [https://freddy120.github.io/heartfailure_vys/files/heart.csv](https://freddy120.github.io/heartfailure_vys/files/heart.csv)
+  * Datos de enfermedad cardiovascular: [https://freddy120.github.io/heartfailure_vys/files/cardio_train.csv](https://freddy120.github.io/heartfailure_vys/files/cardio_train.csv)
+  * Causas de muerte de colombia en 2019: [https://freddy120.github.io/heartfailure_vys/files/causesofdeath_colombia_2019.xlsx](https://freddy120.github.io/heartfailure_vys/files/causesofdeath_colombia_2019.xlsx)
 * Se usa jupyter notebook para hacer el modelado, se puede usar colab para abrirlo.
 * Se carga el archivo 'heart.csv’ en la ubicación del notebook para poder cargarlo con pandas.
 
