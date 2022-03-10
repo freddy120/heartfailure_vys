@@ -1,16 +1,16 @@
-,Code,Causa,ISO3,Sex,Age Group,Población,Muertes,Tasa de mortalidad por 100 000 habitantes
-0,1130,Enfermedad isquémica del corazón,COL,MLE,ALLAges,24700000,22643.21,91.67
-1,1620,Violencia interpersonal,COL,MLE,ALLAges,24700000,17510.22,70.89
-2,1180,Afección pulmonar obstructiva crónica,COL,MLE,ALLAges,24700000,7813.25,31.63
-3,1140,Derrame cerebral,COL,MLE,ALLAges,24700000,7443.58,30.14
-4,1530,Accidente automovilístico,COL,MLE,ALLAges,24700000,6345.95,25.69
-5,390,Neumonía,COL,MLE,ALLAges,24700000,5317.72,21.53
-6,640,Cáncer de estómago,COL,MLE,ALLAges,24700000,3745.38,15.16
-7,1270,Enfermedad renal,COL,MLE,ALLAges,24700000,3693.17,14.95
-8,740,Cancer de prostata,COL,MLE,ALLAges,24700000,3584.48,14.51
-9,1120,Hipertensión arterial,COL,MLE,ALLAges,24700000,3094.31,12.53
-10,680,"Tráquea, bronquios, cánceres de pulmón",COL,MLE,ALLAges,24700000,3039.61,12.31
-11,490,Condiciones neonatales,COL,MLE,ALLAges,24700000,2459.85,9.96
-12,100,VIH/SIDA,COL,MLE,ALLAges,24700000,2086.2,8.45
-13,800,Diabetes mellitus,COL,MLE,ALLAges,24700000,2079.42,8.42
-14,650,Cánceres de colon y recto,COL,MLE,ALLAges,24700000,2066.15,8.36
+Causa,Población,Muertes,Tasa de mortalidad por 100 000 habitantes
+Enfermedad isquémica del corazón,24700000,22643.21,91.67
+Violencia interpersonal,24700000,17510.22,70.89
+Afección pulmonar obstructiva crónica,24700000,7813.25,31.63
+Derrame cerebral,24700000,7443.58,30.14
+Accidente automovilístico,24700000,6345.95,25.69
+Neumonía,24700000,5317.72,21.53
+Cáncer de estómago,24700000,3745.38,15.16
+Enfermedad renal,24700000,3693.17,14.95
+Cancer de prostata,24700000,3584.48,14.51
+Hipertensión arterial,24700000,3094.31,12.53
+"Tráquea, bronquios, cánceres de pulmón",24700000,3039.61,12.31
+Condiciones neonatales,24700000,2459.85,9.96
+VIH/SIDA,24700000,2086.2,8.45
+Diabetes mellitus,24700000,2079.42,8.42
+Cánceres de colon y recto,24700000,2066.15,8.36
