@@ -227,12 +227,16 @@ causas_muerte_df = causas_muerte_df.rename(columns = {'Cause': 'Causa', 'Populat
 causas_muerte_df = causas_muerte_df.drop(columns=['Year', 'DALY', 'DALY rate per 100 000 population'])
 ```
 
-* Por último, se crea un nuevo csv después de ejecutar todo el jupyter notebook, el cual utilizaremos para crear el dashboard.
+* Por último, se guardan los resultados en formato csv, el cual utilizaremos para crear el dashboard.
 
 ```python
-heart_df.to_csv('heart_procesado.csv',  index=False)
+heart_df.to_csv("heart_v1.csv",index=False)
+cardio_df.to_csv("cardio_v1.csv", index=False)
+causas_muerte_df.head(15).to_csv("causa_muertes_colombia_2019.csv", index=False)
 ```
 
 
 ### Datos procesados
-* Base de datos procesado [dataset procesado](https://freddy120.github.io/heartfailure_vys/files/heart_procesado.csv)
+* Datos de predicción de insuficiencia cardíaca: [https://freddy120.github.io/heartfailure_vys/files/heart_v1.csv](https://freddy120.github.io/heartfailure_vys/files/heart_v1.csv)
+* Datos de enfermedad cardiovascular: [https://freddy120.github.io/heartfailure_vys/files/cardio_v1.csv](https://freddy120.github.io/heartfailure_vys/files/cardio_v1.csv)
+* Causas de muerte de colombia en 2019: [https://freddy120.github.io/heartfailure_vys/files/causesofdeath_colombia_2019.csv](https://freddy120.github.io/heartfailure_vys/files/causesofdeath_colombia_2019.csv)
