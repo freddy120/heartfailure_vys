@@ -239,4 +239,4 @@ causas_muerte_df.head(15).to_csv("causa_muertes_colombia_2019.csv", index=False)
 ### Datos procesados
 * Datos de predicción de insuficiencia cardíaca: [https://freddy120.github.io/heartfailure_vys/files/heart_v1.csv](https://freddy120.github.io/heartfailure_vys/files/heart_v1.csv)
 * Datos de enfermedad cardiovascular: [https://freddy120.github.io/heartfailure_vys/files/cardio_v1.csv](https://freddy120.github.io/heartfailure_vys/files/cardio_v1.csv)
-* Causas de muerte de colombia en 2019: [https://freddy120.github.io/heartfailure_vys/files/causesofdeath_colombia_2019.csv](https://freddy120.github.io/heartfailure_vys/files/causesofdeath_colombia_2019.csv)
+* Causas de muerte de colombia en 2019: [https://freddy120.github.io/heartfailure_vys/files/causa_muertes_colombia_2019.csv](https://freddy120.github.io/heartfailure_vys/files/causa_muertes_colombia_2019.csv)
