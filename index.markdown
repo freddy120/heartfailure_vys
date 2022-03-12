@@ -26,7 +26,7 @@ El tema de nuestro proyecto es analizar e identificar los factores más importan
 * Datos de predicción de insuficiencia cardíaca: Aquí tenemos 918 observaciones de pacientes con 11 variables de interés. 
   * fedesoriano. (September 2021). Heart Failure Prediction Dataset. Retrieved [Date Retrieved] from [https://www.kaggle.com/fedesoriano/heart-failure-prediction](https://www.kaggle.com/fedesoriano/heart-failure-prediction). 
 * Datos de enfermedad cardiovascular: Aquí tenemos 70000 observaciones de pacientes con 11 variables de interés relativamente diferentes al dataset anterior y que nos permiten aumentar el análisis. 
-  * [https://www.kaggle.com/fedesoriano/heart-failure-prediction](https://www.kaggle.com/fedesoriano/heart-failure-prediction)
+  * [https://www.kaggle.com/sulianova/cardiovascular-disease-dataset](https://www.kaggle.com/sulianova/cardiovascular-disease-dataset)
 
 
 
